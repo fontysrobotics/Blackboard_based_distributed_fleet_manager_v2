@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.092s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.117s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/bbinstance
+[0.138s] -- Install configuration: ""
+[0.138s] CMake Error at cmake_install.cmake:49 (file):
+[0.138s]   file INSTALL cannot find
+[0.138s]   "/home/mpcmeulensteen/blackboard_ws/src/bbinstance/srs/blackboardinstance.py":
+[0.138s]   No such file or directory.
+[0.138s] 
+[0.138s] 
+[0.139s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/include
+[0.139s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/include/bbinstance
+[0.139s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/launch
+[0.139s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/launch/blackboard.launch.py
+[0.139s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/launch/blackboard.launch
+[0.140s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src
+[0.140s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/robotInstance2.py
+[0.140s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/robotInstance3.py
+[0.140s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/robotInstance4.py
+[0.140s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/robotInstance.py
+[0.140s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/multi subscriber.py
+[0.141s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/markers.py
+[0.141s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/robotInstance5.py
+[0.141s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/interface.py
+[0.141s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/monitor.py
+[0.143s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/taskview.ui
+[0.143s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/taskview.py
+[0.143s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/interface.ui
+[0.144s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/gui.py
+[0.144s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/multi publisher.py
+[0.144s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/src/blackboardinstance.py
+[0.144s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/bbinstance

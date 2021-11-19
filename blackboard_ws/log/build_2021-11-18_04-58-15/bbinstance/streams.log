@@ -1,0 +1,9 @@
+[0.042s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.102s] CMake Error at CMakeLists.txt:32 (ament_target_dependencies):
+[0.102s]   Unknown CMake command "ament_target_dependencies".
+[0.102s] 
+[0.102s] 
+[0.103s] -- Configuring incomplete, errors occurred!
+[0.103s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeOutput.log".
+[0.109s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.113s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2

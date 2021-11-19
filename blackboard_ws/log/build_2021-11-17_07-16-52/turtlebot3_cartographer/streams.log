@@ -1,0 +1,49 @@
+[0.077s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer
+[0.420s] -- The C compiler identification is GNU 9.3.0
+[1.108s] -- The CXX compiler identification is GNU 9.3.0
+[1.113s] -- Check for working C compiler: /usr/bin/cc
+[2.167s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.170s] -- Detecting C compiler ABI info
+[2.637s] -- Detecting C compiler ABI info - done
+[2.656s] -- Detecting C compile features
+[2.656s] -- Detecting C compile features - done
+[2.658s] -- Check for working CXX compiler: /usr/bin/c++
+[2.817s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.818s] -- Detecting CXX compiler ABI info
+[3.040s] -- Detecting CXX compiler ABI info - done
+[3.048s] -- Detecting CXX compile features
+[3.048s] -- Detecting CXX compile features - done
+[3.052s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.084s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.353s] -- Configuring done
+[3.355s] -- Generating done
+[3.358s] -- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer
+[3.364s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer
+[3.366s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer -- -j2 -l2
+[3.415s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer -- -j2 -l2
+[3.439s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer
+[3.449s] -- Install configuration: ""
+[3.449s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[3.449s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[3.450s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[3.450s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[3.450s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[3.450s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[3.450s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[3.451s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[3.451s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[3.451s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[3.452s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[3.452s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[3.452s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[3.452s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[3.453s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[3.453s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[3.453s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[3.454s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[3.454s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[3.454s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[3.454s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[3.455s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[3.460s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_cartographer

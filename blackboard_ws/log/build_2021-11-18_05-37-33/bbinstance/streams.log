@@ -1,0 +1,64 @@
+[0.030s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.078s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.388s] -- Found bbinstance: 0.0.0 (/home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/cmake)
+[0.388s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.725s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.735s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.912s] -- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)
+[0.912s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.025s] CMake Error at CMakeLists.txt:58 (add_executable):
+[1.025s]   add_executable cannot create target "taskview" because another target with
+[1.025s]   the same name already exists.  The existing target is an executable created
+[1.026s]   in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+[1.026s]   See documentation for policy CMP0002 for more details.
+[1.026s] 
+[1.026s] 
+[1.026s] CMake Error at CMakeLists.txt:61 (add_executable):
+[1.026s]   add_executable cannot create target "taskview" because another target with
+[1.026s]   the same name already exists.  The existing target is an executable created
+[1.026s]   in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+[1.026s]   See documentation for policy CMP0002 for more details.
+[1.026s] 
+[1.026s] 
+[1.027s] CMake Error at CMakeLists.txt:64 (add_executable):
+[1.027s]   add_executable cannot create target "taskview" because another target with
+[1.027s]   the same name already exists.  The existing target is an executable created
+[1.027s]   in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+[1.027s]   See documentation for policy CMP0002 for more details.
+[1.027s] 
+[1.027s] 
+[1.028s] CMake Error at CMakeLists.txt:67 (add_executable):
+[1.028s]   add_executable cannot create target "taskview" because another target with
+[1.028s]   the same name already exists.  The existing target is an executable created
+[1.028s]   in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+[1.028s]   See documentation for policy CMP0002 for more details.
+[1.028s] 
+[1.028s] 
+[1.029s] CMake Error at CMakeLists.txt:70 (add_executable):
+[1.029s]   add_executable cannot create target "taskview" because another target with
+[1.029s]   the same name already exists.  The existing target is an executable created
+[1.029s]   in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+[1.029s]   See documentation for policy CMP0002 for more details.
+[1.029s] 
+[1.029s] 
+[1.030s] CMake Error at CMakeLists.txt:73 (add_executable):
+[1.030s]   add_executable cannot create target "taskview" because another target with
+[1.030s]   the same name already exists.  The existing target is an executable created
+[1.030s]   in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+[1.030s]   See documentation for policy CMP0002 for more details.
+[1.030s] 
+[1.030s] 
+[1.036s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.038s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.039s] -- Added test 'lint_cmake' to check CMake code style
+[1.039s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.040s] -- Added test 'xmllint' to check XML markup files
+[1.042s] -- Configuring incomplete, errors occurred!
+[1.042s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeOutput.log".
+[1.043s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeError.log".
+[1.049s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.052s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2

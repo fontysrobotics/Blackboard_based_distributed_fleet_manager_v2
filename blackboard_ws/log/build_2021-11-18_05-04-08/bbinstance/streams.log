@@ -1,0 +1,10 @@
+[0.069s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.109s] make[2]: CMakeFiles/gui.dir/build.make: No such file or directory
+[0.110s] make[2]: *** No rule to make target 'CMakeFiles/gui.dir/build.make'.  Stop.
+[0.110s] make[1]: *** [CMakeFiles/Makefile2:89: CMakeFiles/gui.dir/all] Error 2
+[0.110s] make[1]: *** Waiting for unfinished jobs....
+[0.111s] make[2]: CMakeFiles/robotInstance3.dir/build.make: No such file or directory
+[0.111s] make[2]: *** No rule to make target 'CMakeFiles/robotInstance3.dir/build.make'.  Stop.
+[0.111s] make[1]: *** [CMakeFiles/Makefile2:116: CMakeFiles/robotInstance3.dir/all] Error 2
+[0.111s] make: *** [Makefile:141: all] Error 2
+[0.116s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2

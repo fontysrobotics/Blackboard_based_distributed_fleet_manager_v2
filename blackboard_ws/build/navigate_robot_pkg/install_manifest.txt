@@ -1,0 +1,15 @@
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/ament_index/resource_index/package_run_dependencies/navigate_robot_pkg
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/ament_index/resource_index/parent_prefix_path/navigate_robot_pkg
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/ament_prefix_path.sh
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/ament_prefix_path.dsv
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/path.sh
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/path.dsv
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.bash
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.sh
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.zsh
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.dsv
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/package.dsv
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/ament_index/resource_index/packages/navigate_robot_pkg
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/cmake/navigate_robot_pkgConfig.cmake
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/cmake/navigate_robot_pkgConfig-version.cmake
+/home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/package.xml

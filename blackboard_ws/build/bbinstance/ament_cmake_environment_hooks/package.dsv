@@ -1,0 +1,4 @@
+source;share/bbinstance/local_setup.bash
+source;share/bbinstance/local_setup.dsv
+source;share/bbinstance/local_setup.sh
+source;share/bbinstance/local_setup.zsh

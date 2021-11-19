@@ -1,0 +1,25 @@
+[0.043s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.075s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.284s] -- Found bbinstance: 0.0.0 (/home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/cmake)
+[0.284s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.324s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.629s] -- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)
+[0.631s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.700s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.703s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.704s] -- Added test 'lint_cmake' to check CMake code style
+[0.705s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.706s] -- Added test 'xmllint' to check XML markup files
+[0.709s] -- Configuring done
+[0.711s] CMake Error at CMakeLists.txt:44 (add_library):
+[0.711s]   No SOURCES given to target: parsers
+[0.711s] 
+[0.711s] 
+[0.711s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.719s] make: *** [Makefile:320: cmake_check_build_system] Error 1
+[0.725s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2

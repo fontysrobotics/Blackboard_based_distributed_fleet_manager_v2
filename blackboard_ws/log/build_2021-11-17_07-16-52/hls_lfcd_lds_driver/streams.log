@@ -1,0 +1,74 @@
+[0.039s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver
+[0.129s] -- The C compiler identification is GNU 9.3.0
+[0.177s] -- The CXX compiler identification is GNU 9.3.0
+[0.177s] -- Check for working C compiler: /usr/bin/cc
+[0.316s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.316s] -- Detecting C compiler ABI info
+[0.444s] -- Detecting C compiler ABI info - done
+[0.450s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.453s] -- Check for working CXX compiler: /usr/bin/c++
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.529s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.613s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.661s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.661s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.161s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.576s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.633s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.925s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.934s] -- Looking for pthread.h
+[2.130s] -- Looking for pthread.h - found
+[2.131s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.267s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.268s] -- Looking for pthread_create in pthreads
+[2.464s] -- Looking for pthread_create in pthreads - not found
+[2.464s] -- Looking for pthread_create in pthread
+[2.731s] -- Looking for pthread_create in pthread - found
+[2.732s] -- Found Threads: TRUE  
+[2.966s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.134s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[3.262s] -- Configuring done
+[3.275s] -- Generating done
+[3.285s] -- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver
+[3.293s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver
+[3.294s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver -- -j2 -l2
+[3.353s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[3.468s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[11.152s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[11.337s] [100%] Built target hlds_laser_publisher
+[11.349s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver -- -j2 -l2
+[11.380s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver
+[11.391s] -- Install configuration: ""
+[11.391s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch
+[11.391s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[11.392s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[11.392s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz
+[11.392s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[11.393s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[11.394s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher" to ""
+[11.394s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[11.395s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[11.395s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[11.395s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[11.395s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[11.396s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[11.396s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[11.396s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[11.396s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[11.397s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[11.397s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[11.397s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[11.398s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.398s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.398s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[11.398s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[11.399s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[11.404s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/hls_lfcd_lds_driver

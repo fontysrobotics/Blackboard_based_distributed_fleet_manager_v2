@@ -1,0 +1,4 @@
+source;share/blackboard/local_setup.bash
+source;share/blackboard/local_setup.dsv
+source;share/blackboard/local_setup.sh
+source;share/blackboard/local_setup.zsh

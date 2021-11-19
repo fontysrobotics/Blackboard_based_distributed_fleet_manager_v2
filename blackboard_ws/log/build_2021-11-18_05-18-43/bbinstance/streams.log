@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.106s] CMake Error: Could not find cmake module file: CMakeDeterminepyCompiler.cmake
+[0.106s] CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.106s] Missing variable is:
+[0.106s] CMAKE_py_COMPILER_ENV_VAR
+[0.107s] CMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.107s] Missing variable is:
+[0.107s] CMAKE_py_COMPILER
+[0.107s] CMake Error: Could not find cmake module file: /home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/3.16.3/CMakepyCompiler.cmake
+[0.108s] CMake Error at CMakeLists.txt:2 (project):
+[0.108s]   No CMAKE_py_COMPILER could be found.
+[0.108s] 
+[0.108s]   Tell CMake where to find the compiler by setting the CMake cache entry
+[0.109s]   CMAKE_py_COMPILER to the full path to the compiler, or to the compiler name
+[0.109s]   if it is in the PATH.
+[0.109s] 
+[0.109s] 
+[0.109s] CMake Error: Could not find cmake module file: CMakepyInformation.cmake
+[0.109s] CMake Error: CMAKE_py_COMPILER not set, after EnableLanguage
+[0.109s] -- Configuring incomplete, errors occurred!
+[0.109s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeOutput.log".
+[0.110s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeError.log".
+[0.112s] make: *** [Makefile:320: cmake_check_build_system] Error 1
+[0.120s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2

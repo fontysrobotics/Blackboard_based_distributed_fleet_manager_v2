@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.047s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.262s] -- Found bbinstance: 0.0.0 (/home/mpcmeulensteen/blackboard_ws/install/bbinstance/share/bbinstance/cmake)
+[0.262s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.297s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.481s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.484s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.633s] -- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)
+[0.634s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.705s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.708s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.708s] -- Added test 'lint_cmake' to check CMake code style
+[0.708s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.709s] -- Added test 'xmllint' to check XML markup files
+[0.712s] -- Configuring done
+[0.714s] CMake Error: Cannot determine link language for target "gui".
+[0.714s] CMake Error: CMake can not determine linker language for target: gui
+[0.715s] CMake Error: Cannot determine link language for target "robotInstance3".
+[0.715s] CMake Error: CMake can not determine linker language for target: robotInstance3
+[0.715s] CMake Error: Cannot determine link language for target "robotInstance".
+[0.716s] CMake Error: CMake can not determine linker language for target: robotInstance
+[0.716s] CMake Error: Cannot determine link language for target "robotInstance2".
+[0.716s] CMake Error: CMake can not determine linker language for target: robotInstance2
+[0.717s] CMake Error: Cannot determine link language for target "taskview".
+[0.718s] CMake Error: CMake can not determine linker language for target: taskview
+[0.718s] CMake Error: Cannot determine link language for target "robotInstance4".
+[0.718s] CMake Error: CMake can not determine linker language for target: robotInstance4
+[0.718s] CMake Error: Cannot determine link language for target "blackboardinstance".
+[0.719s] CMake Error: CMake can not determine linker language for target: blackboardinstance
+[0.720s] -- Generating done
+[0.723s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.727s] make: *** [Makefile:320: cmake_check_build_system] Error 1
+[0.730s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2

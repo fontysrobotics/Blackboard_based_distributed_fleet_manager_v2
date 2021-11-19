@@ -1,0 +1,43 @@
+CMake Error at CMakeLists.txt:58 (add_executable):
+  add_executable cannot create target "taskview" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+  See documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:61 (add_executable):
+  add_executable cannot create target "taskview" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+  See documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:64 (add_executable):
+  add_executable cannot create target "taskview" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+  See documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:67 (add_executable):
+  add_executable cannot create target "taskview" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+  See documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:70 (add_executable):
+  add_executable cannot create target "taskview" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+  See documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:73 (add_executable):
+  add_executable cannot create target "taskview" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/mpcmeulensteen/blackboard_ws/src/bbinstance".
+  See documentation for policy CMP0002 for more details.
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

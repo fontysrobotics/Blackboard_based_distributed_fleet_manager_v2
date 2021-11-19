@@ -1,0 +1,24 @@
+[0.072s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
+[0.194s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.057s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.201s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.803s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.812s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.361s] -- Found rclpy: 1.0.7 (/opt/ros/foxy/share/rclpy/cmake)
+[2.382s] CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:46 (message):
+[2.382s]   ament_python_install_package() the Python package folder
+[2.382s]   '/home/mpcmeulensteen/blackboard_ws/src/bbinstance/bbinstance' doesn't
+[2.382s]   contain an '__init__.py' file
+[2.382s] Call Stack (most recent call first):
+[2.382s]   /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)
+[2.382s]   CMakeLists.txt:32 (ament_python_install_package)
+[2.384s] 
+[2.384s] 
+[2.389s] -- Configuring incomplete, errors occurred!
+[2.389s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeOutput.log".
+[2.389s] See also "/home/mpcmeulensteen/blackboard_ws/build/bbinstance/CMakeFiles/CMakeError.log".
+[2.415s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.468s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/bbinstance' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/bbinstance -- -j2 -l2
