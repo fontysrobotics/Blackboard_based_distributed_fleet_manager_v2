@@ -2,7 +2,7 @@
 #need to point to classes inorder to import
 import rclpy
 
-from rclpy.Node import Node
+from rclpy.node import Node
 from blackboard.Robot import Robot
 from blackboard.RosCommunication import Talker
 from rosnode import rosnode_ping

@@ -34,7 +34,7 @@ class Blackboard:
         self.talker  = talker                        # init talker
         self.robotnr = 4                             # Keeps track of current Nr of active robots "static for test purposes"
 
-        if state is 1:                               # Incase the blackboard instance is active declare variables
+        if state == 1:                               # Incase the blackboard instance is active declare variables
             self.taskList = []                       # Local list of Tasks                     
             self.buAdress = 'robot1'                 # Current backup adress "Static for testing purposes -> change to a list based on processing resouces"
 

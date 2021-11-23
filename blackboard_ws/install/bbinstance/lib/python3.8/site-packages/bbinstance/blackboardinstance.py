@@ -1,6 +1,7 @@
 #!/usr/bin python3
 #need to point to classes inorder to import
 import rclpy
+import blackboard
 from rclpy.node import Node
 from blackboard.msg import TaskMsg
 from std_msgs.msg import String

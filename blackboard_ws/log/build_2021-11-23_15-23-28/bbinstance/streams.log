@@ -1,0 +1,20 @@
+[0.272s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/bbinstance': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log --single-version-externally-managed
+[0.468s] running egg_info
+[0.469s] writing ../../build/bbinstance/bbinstance.egg-info/PKG-INFO
+[0.469s] writing dependency_links to ../../build/bbinstance/bbinstance.egg-info/dependency_links.txt
+[0.469s] writing entry points to ../../build/bbinstance/bbinstance.egg-info/entry_points.txt
+[0.470s] writing requirements to ../../build/bbinstance/bbinstance.egg-info/requires.txt
+[0.470s] writing top-level names to ../../build/bbinstance/bbinstance.egg-info/top_level.txt
+[0.501s] reading manifest file '../../build/bbinstance/bbinstance.egg-info/SOURCES.txt'
+[0.502s] writing manifest file '../../build/bbinstance/bbinstance.egg-info/SOURCES.txt'
+[0.502s] running build
+[0.502s] running build_py
+[0.503s] running install
+[0.504s] running install_lib
+[0.506s] running install_data
+[0.506s] running install_egg_info
+[0.508s] removing '/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info' (and everything under it)
+[0.508s] Copying ../../build/bbinstance/bbinstance.egg-info to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info
+[0.509s] running install_scripts
+[0.525s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log'
+[0.551s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/bbinstance' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log --single-version-externally-managed

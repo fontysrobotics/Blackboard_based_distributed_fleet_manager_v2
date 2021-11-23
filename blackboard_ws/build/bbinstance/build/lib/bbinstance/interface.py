@@ -47,21 +47,19 @@ choice = raw_input("press 1 to add a new task\npress 2 to change a robot state")
 
 
 
-if choice is '1':
+if choice == '1':
     taskId = input("enter task Id\n")
     priority = input("enter task priority\n")
     taskType = input("enter task type\n1.GA\n2.GAB\n3.GPA\n4.GPAB")
    
-    if taskType is 1:
+    if taskType == 1:
         pose.position.x = input("enter pose.X:")
         pose.position.y = input("enter pose.Y: ")
         pose.position.z = input("enter pose.Z: ")
         pose.orientation.w = input("enter Orientation.w: ")
-        posearray.append(pose)
-        
-        
+        posearray.append(pose)        
 
-    if taskType is 2:
+    if taskType == 2:
         pose.position.x = input("enter pose.X:")
         pose.position.y = input("enter pose.Y: ")
         pose.position.z = input("enter pose.Z: ")
@@ -75,7 +73,7 @@ if choice is '1':
         posearray.append(pose)
         tskType = TaskType.GAB
 
-    if taskType is 3:
+    if taskType == 3:
         pose.position.x = input("enter pose.X:")
         pose.position.y = input("enter pose.Y: ")
         pose.position.z = input("enter pose.Z: ")
@@ -89,7 +87,7 @@ if choice is '1':
         posearray.append(pose)
         tskType = TaskType.GPA
 
-    if taskType is 4:
+    if taskType == 4:
         pose.position.x = input("enter pose.X:")
         pose.position.y = input("enter pose.Y: ")
         pose.position.z = input("enter pose.Z: ")
@@ -124,7 +122,7 @@ if choice is '1':
     talk.pub_newTask.publish(tskmsg)
 
 
-if choice is '2':
+if choice == '2':
     rstate = raw_input("Select robot state:\n1.Busy\n2.Defect\n3.Idle ")
     robotID = raw_input("enter robot ID:")
     pu = rstate+','+robotID

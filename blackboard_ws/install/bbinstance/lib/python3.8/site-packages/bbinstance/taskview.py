@@ -8,7 +8,7 @@ from python_qt_binding import QtGui
 
 import rclpy
 
-from rclpy.Node import Node
+from rclpy.node import Node
 from blackboard.msg import TaskMsg
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from std_msgs.msg import String
@@ -99,7 +99,7 @@ class Ui_MainWindow(object):
         stepCounter = 0
         
         for t in self.tasklist:
-            if t.taskState is not 2:
+            if t.taskState != 2:
                 finalStep = 0
                 lenght = len(t.pose)
                 for po in t.pose:

@@ -190,7 +190,7 @@ class Robot:
                 print('third exception')
                 self.taskCostLock.release()
                 return
-            if energyAtTask is not 0:
+            if energyAtTask != 0:
                 cost = energyCost * preTasks / energyAtTask
             self.updateBlackboard(self.robotId,data.taskId,cost,energyCost)
 
