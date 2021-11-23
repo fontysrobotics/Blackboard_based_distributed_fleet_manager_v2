@@ -1,0 +1,37 @@
+[0.512s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/bbinstance': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log --single-version-externally-managed
+[0.762s] running egg_info
+[0.763s] writing ../../build/bbinstance/bbinstance.egg-info/PKG-INFO
+[0.766s] writing dependency_links to ../../build/bbinstance/bbinstance.egg-info/dependency_links.txt
+[0.766s] writing entry points to ../../build/bbinstance/bbinstance.egg-info/entry_points.txt
+[0.766s] writing requirements to ../../build/bbinstance/bbinstance.egg-info/requires.txt
+[0.766s] writing top-level names to ../../build/bbinstance/bbinstance.egg-info/top_level.txt
+[0.804s] reading manifest file '../../build/bbinstance/bbinstance.egg-info/SOURCES.txt'
+[0.805s] writing manifest file '../../build/bbinstance/bbinstance.egg-info/SOURCES.txt'
+[0.806s] running build
+[0.806s] running build_py
+[0.807s] copying bbinstance/multi subscriber.py -> /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance
+[0.807s] copying bbinstance/markers.py -> /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance
+[0.807s] copying bbinstance/monitor.py -> /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance
+[0.808s] copying bbinstance/multi publisher.py -> /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance
+[0.808s] running install
+[0.809s] running install_lib
+[0.810s] copying /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance/multi subscriber.py -> /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance
+[0.811s] copying /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance/markers.py -> /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance
+[0.811s] copying /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance/monitor.py -> /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance
+[0.812s] copying /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build/lib/bbinstance/multi publisher.py -> /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance
+[0.813s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/multi subscriber.py to multi subscriber.cpython-38.pyc
+[0.815s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/markers.py to markers.cpython-38.pyc
+[0.816s]   File "/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/markers.py", line 55
+[0.816s]     print "Shutting down node"
+[0.816s]           ^
+[0.816s] SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Shutting down node")?
+[0.816s] 
+[0.816s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/monitor.py to monitor.cpython-38.pyc
+[0.817s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/multi publisher.py to multi publisher.cpython-38.pyc
+[0.818s] running install_data
+[0.819s] running install_egg_info
+[0.821s] removing '/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info' (and everything under it)
+[0.822s] Copying ../../build/bbinstance/bbinstance.egg-info to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info
+[0.823s] running install_scripts
+[0.846s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log'
+[0.887s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/bbinstance' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log --single-version-externally-managed

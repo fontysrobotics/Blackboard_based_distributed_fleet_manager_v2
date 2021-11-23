@@ -79,7 +79,8 @@ _colcon_package_sh_source_script() {
 
 # source sh hooks
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/bbinstance/hook/cmake_prefix_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/bbinstance/local_setup.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/bbinstance/hook/pythonpath.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/bbinstance/hook/ament_prefix_path.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX

@@ -1,8 +1,9 @@
 source;share/bbinstance/hook/cmake_prefix_path.ps1
 source;share/bbinstance/hook/cmake_prefix_path.dsv
 source;share/bbinstance/hook/cmake_prefix_path.sh
-source;share/bbinstance/local_setup.bash
-source;share/bbinstance/local_setup.dsv
-source;share/bbinstance/local_setup.ps1
-source;share/bbinstance/local_setup.sh
-source;share/bbinstance/local_setup.zsh
+source;share/bbinstance/hook/pythonpath.ps1
+source;share/bbinstance/hook/pythonpath.dsv
+source;share/bbinstance/hook/pythonpath.sh
+source;share/bbinstance/hook/ament_prefix_path.ps1
+source;share/bbinstance/hook/ament_prefix_path.dsv
+source;share/bbinstance/hook/ament_prefix_path.sh

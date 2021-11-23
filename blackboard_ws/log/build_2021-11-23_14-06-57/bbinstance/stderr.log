@@ -1,0 +1,19 @@
+  File "/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/markers.py", line 55
+    print "Shutting down node"
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Shutting down node")?
+
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py:50: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if choice is '1':
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py:55: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if taskType is 1:
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py:64: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if taskType is 2:
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py:78: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if taskType is 3:
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py:92: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if taskType is 4:
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py:127: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if choice is '2':
+/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/taskview.py:102: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if t.taskState is not 2:

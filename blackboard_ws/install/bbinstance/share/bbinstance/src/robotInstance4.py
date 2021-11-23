@@ -1,6 +1,8 @@
 #!/usr/bin python3
 #need to point to classes inorder to import
-import rospy
+import rclpy
+
+from rclpy.Node import Node
 from blackboard.Robot import Robot
 from blackboard.RosCommunication import Talker
 from rosnode import rosnode_ping
@@ -13,4 +15,4 @@ talker = Talker('robot4')
 r = Robot('blackboard','robot1',4,4,4,4,5,10,10,bat,'robot4',talker)
 
 
-rospy.spin()
+rclpy.spin()
