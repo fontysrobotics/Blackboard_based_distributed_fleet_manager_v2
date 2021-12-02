@@ -9,28 +9,30 @@ from python_qt_binding import QtGui
 import rclpy
 
 from rclpy.node import Node
-from blackboard.msg import TaskMsg
+from message_pkg.msg import TaskMsg
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from std_msgs.msg import String
 from std_msgs.msg import Float32
-from blackboard.msg import bbBackup
+from message_pkg.msg import BBbackup
 from geometry_msgs.msg import Pose , PointStamped
 
 from threading import Lock
 
 
-class Talker(): #change to multy topic publisher
+class Talker(Node): #change to multy topic publisher
     def __init__(self,nodeName):
         self.nodeName = nodeName
-        self.pubNewTask = rclpy.Publisher('newTask', TaskMsg,queue_size=10)
-        self.pubRobotState = rclpy.Publisher('robotState', String,queue_size=10)
+        super().__init__(self.nodeName)
+        self.pubNewTask = self.create_publisher(TaskMsg, 'newTask',10)
+        self.pubRobotState = self.create_publisher(String, 'robotState', 10)
         
-        rclpy.init_node(nodeName, anonymous=False)
+
+        node = rclpy.create_node(nodeName, anonymous=False)
 
 
 
 ###############################################################################################
-class Ui_MainWindow(object):
+class Ui_MainWindow(Node, object):
     def setupUi(self, MainWindow):
 ###############################################################################################
         self.lock = Lock()

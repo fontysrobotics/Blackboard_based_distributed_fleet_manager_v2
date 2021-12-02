@@ -1,0 +1,33 @@
+[0.268s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed
+[0.492s] running egg_info
+[0.493s] writing ../../build/blackboard/blackboard.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../../build/blackboard/blackboard.egg-info/dependency_links.txt
+[0.493s] writing entry points to ../../build/blackboard/blackboard.egg-info/entry_points.txt
+[0.493s] writing requirements to ../../build/blackboard/blackboard.egg-info/requires.txt
+[0.493s] writing top-level names to ../../build/blackboard/blackboard.egg-info/top_level.txt
+[0.523s] reading manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.523s] writing manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.524s] running build
+[0.524s] running build_py
+[0.524s] copying blackboard/Controller.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.524s] copying blackboard/Blackboard.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.524s] copying blackboard/RosCommunication2.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.524s] copying blackboard/RosCommunication.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.525s] running install
+[0.525s] running install_lib
+[0.526s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Controller.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.526s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Blackboard.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.526s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/RosCommunication2.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.526s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/RosCommunication.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.527s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Controller.py to Controller.cpython-38.pyc
+[0.528s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Blackboard.py to Blackboard.cpython-38.pyc
+[0.529s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/RosCommunication2.py to RosCommunication2.cpython-38.pyc
+[0.529s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/RosCommunication.py to RosCommunication.cpython-38.pyc
+[0.530s] running install_data
+[0.530s] copying package.xml -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/share/blackboard
+[0.530s] running install_egg_info
+[0.532s] removing '/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info' (and everything under it)
+[0.532s] Copying ../../build/blackboard/blackboard.egg-info to /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info
+[0.533s] running install_scripts
+[0.547s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log'
+[0.579s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed

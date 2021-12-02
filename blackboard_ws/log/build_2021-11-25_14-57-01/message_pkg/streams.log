@@ -1,0 +1,189 @@
+[0.017s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2
+[0.088s] [  1%] Built target message_pkg__cpp
+[0.114s] [ 12%] Built target message_pkg__rosidl_generator_c
+[0.124s] [ 23%] Built target message_pkg__rosidl_typesupport_cpp
+[0.155s] [ 34%] Built target message_pkg__rosidl_typesupport_fastrtps_cpp
+[0.167s] [ 46%] Built target message_pkg__rosidl_typesupport_c
+[0.187s] [ 57%] Built target message_pkg__rosidl_typesupport_introspection_cpp
+[0.208s] [ 68%] Built target message_pkg__rosidl_typesupport_introspection_c
+[0.228s] [ 79%] Built target message_pkg__rosidl_typesupport_fastrtps_c
+[0.250s] [ 79%] Built target message_pkg
+[0.271s] [ 80%] Built target message_pkg__py
+[0.306s] [ 90%] Built target message_pkg__python
+[0.336s] [ 93%] Built target message_pkg__rosidl_typesupport_introspection_c__pyext
+[0.337s] [ 96%] Built target message_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.362s] [100%] Built target message_pkg__rosidl_typesupport_c__pyext
+[0.377s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2
+[0.533s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/message_pkg
+[0.544s] -- Install configuration: ""
+[0.545s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/rosidl_interfaces/message_pkg
+[0.545s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[0.546s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[0.546s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_msg.h
+[0.546s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[0.546s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__type_support.h
+[0.546s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__functions.c
+[0.546s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__functions.c
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__type_support.h
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__functions.c
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__struct.h
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__type_support.h
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__functions.h
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__functions.c
+[0.547s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__struct.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__type_support.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__functions.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__functions.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__struct.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__struct.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__struct.h
+[0.548s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__functions.h
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__functions.c
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__functions.h
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__type_support.h
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_cost.h
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bsynch.h
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_state_msg.h
+[0.549s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bbackup.h
+[0.550s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.550s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/library_path.sh
+[0.551s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/library_path.dsv
+[0.551s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_generator_c.so
+[0.551s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[0.551s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[0.551s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[0.552s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_fastrtps_c.h
+[0.552s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_fastrtps_c.h
+[0.552s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_fastrtps_c.h
+[0.552s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_fastrtps_c.h
+[0.552s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_fastrtps_c.h
+[0.552s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.553s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_fastrtps_c.so
+[0.553s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[0.553s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[0.553s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[0.553s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_fastrtps_cpp.hpp
+[0.554s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_fastrtps_cpp.hpp
+[0.554s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_fastrtps_cpp.hpp
+[0.554s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.554s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.554s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/dds_fastrtps
+[0.554s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.555s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_fastrtps_cpp.so
+[0.555s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[0.555s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[0.555s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__type_support.c
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__type_support.c
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__type_support.c
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__type_support.c
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__type_support.c
+[0.557s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.557s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_introspection_c.so
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_c.so
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_msg.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bbackup.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__builder.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__struct.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__builder.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__traits.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__traits.hpp
+[0.558s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__traits.hpp
+[0.559s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__struct.hpp
+[0.559s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__traits.hpp
+[0.559s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__struct.hpp
+[0.559s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__builder.hpp
+[0.559s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__traits.hpp
+[0.559s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__builder.hpp
+[0.560s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__struct.hpp
+[0.560s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__struct.hpp
+[0.560s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__builder.hpp
+[0.560s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_cost.hpp
+[0.560s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_state_msg.hpp
+[0.560s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bsynch.hpp
+[0.561s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[0.561s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[0.561s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[0.561s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.561s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__type_support.cpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_introspection_cpp.hpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__type_support.cpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__type_support.cpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_introspection_cpp.hpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_cpp.hpp
+[0.562s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__type_support.cpp
+[0.563s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__type_support.cpp
+[0.563s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_introspection_cpp.so
+[0.563s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_cpp.so
+[0.564s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/pythonpath.sh
+[0.564s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/pythonpath.dsv
+[0.564s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/__init__.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_state_msg.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_msg_s.c
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bsynch.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bbackup.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bbackup_s.c
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bsynch_s.c
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_cost.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_state_msg_s.c
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_cost_s.c
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/__init__.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_msg.py
+[0.610s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.613s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.613s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__python.so
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBbackup.idl
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBsynch.idl
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskCost.idl
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskMsg.idl
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskStateMsg.idl
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBbackup.msg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBsynch.msg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskCost.msg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskMsg.msg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskStateMsg.msg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/package_run_dependencies/message_pkg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/parent_prefix_path/message_pkg
+[0.614s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/ament_prefix_path.sh
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/ament_prefix_path.dsv
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/path.sh
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/path.dsv
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.bash
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.sh
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.zsh
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.dsv
+[0.615s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/package.dsv
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/packages/message_pkg
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_generator_cExport.cmake
+[0.615s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.616s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.616s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.616s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cExport.cmake
+[0.616s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.616s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_generator_cppExport.cmake
+[0.617s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.617s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.617s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cppExport.cmake
+[0.617s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.618s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/rosidl_cmake-extras.cmake
+[0.618s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.618s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.618s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.618s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.618s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.619s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.619s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkgConfig.cmake
+[0.619s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkgConfig-version.cmake
+[0.619s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/package.xml
+[0.630s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/message_pkg

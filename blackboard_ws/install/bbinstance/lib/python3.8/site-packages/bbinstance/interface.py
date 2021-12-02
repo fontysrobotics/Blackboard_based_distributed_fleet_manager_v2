@@ -4,7 +4,7 @@ import rclpy
 #sys.path.append('../include/blackboard')
 
 from rclpy.node import Node
-from blackboard.msg import TaskMsg
+from message_pkg.msg import TaskMsg
 from std_msgs.msg import String
 from std_msgs.msg import Float32
 
@@ -13,7 +13,7 @@ from blackboard.RosCommunication import Talker, Listener
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from geometry_msgs.msg import Pose
 from blackboard.Robot import RobotState
-from blackboard.msg import TaskCost
+from message_pkg.msg import TaskCost
 
 
 # pub = rospy.Publisher('task', TaskMsg,queue_size=10)

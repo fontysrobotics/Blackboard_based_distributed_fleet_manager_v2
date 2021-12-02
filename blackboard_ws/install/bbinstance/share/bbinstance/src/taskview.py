@@ -8,12 +8,12 @@ from python_qt_binding import QtGui
 
 import rclpy
 
-from rclpy.Node import Node
-from blackboard.msg import TaskMsg
+from rclpy.node import Node
+from message_pkg.msg import TaskMsg
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from std_msgs.msg import String
 from std_msgs.msg import Float32
-from blackboard.msg import bbsynch
+from message_pkg.msg import BBsynch
 from geometry_msgs.msg import Pose , PointStamped
 from visualization_msgs.msg import Marker, MarkerArray
 from geometry_msgs.msg import Pose, Point, Vector3, Quaternion
@@ -99,7 +99,7 @@ class Ui_MainWindow(object):
         stepCounter = 0
         
         for t in self.tasklist:
-            if t.taskState is not 2:
+            if t.taskState != 2:
                 finalStep = 0
                 lenght = len(t.pose)
                 for po in t.pose:

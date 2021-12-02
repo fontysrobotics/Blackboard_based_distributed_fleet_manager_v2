@@ -9,11 +9,11 @@ from python_qt_binding import QtGui
 import rclpy
 
 from rclpy.node import Node
-from blackboard.msg import TaskMsg
+from message_pkg.msg import TaskMsg
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from std_msgs.msg import String
 from std_msgs.msg import Float32
-from blackboard.msg import bbsynch
+from message_pkg.msg import BBsynch
 from geometry_msgs.msg import Pose , PointStamped
 from visualization_msgs.msg import Marker, MarkerArray
 from geometry_msgs.msg import Pose, Point, Vector3, Quaternion
@@ -21,13 +21,13 @@ from std_msgs.msg import ColorRGBA
 from threading import Lock
 import rviz_tools_py as rviz_tools
 
-class Talker(): #change to multy topic publisher
+class Talker(Node): #change to multy topic publisher
     def __init__(self,nodeName):
         self.nodeName = nodeName
         self.pubNewTask = rclpy.Publisher('BbSync', bbsynch,queue_size=10)
         rclpy.init_node(nodeName, anonymous=False)
 
-class Ui_MainWindow(object):
+class Ui_MainWindow(Node, object):
     def setupUi(self, MainWindow):
         self.lock = Lock()
         self.talker = Talker('taskview')

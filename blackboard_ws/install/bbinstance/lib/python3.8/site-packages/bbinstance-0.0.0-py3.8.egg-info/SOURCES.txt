@@ -10,7 +10,6 @@ setup.py
 ../../build/bbinstance/bbinstance.egg-info/zip-safe
 bbinstance/__init__.py
 bbinstance/blackboardinstance.py
-bbinstance/blackboardinstance.py.py
 bbinstance/gui.py
 bbinstance/interface.py
 bbinstance/markers.py

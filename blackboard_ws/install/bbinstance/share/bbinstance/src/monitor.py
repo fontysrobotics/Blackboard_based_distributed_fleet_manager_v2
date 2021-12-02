@@ -6,12 +6,12 @@ from python_qt_binding import QtCore
 from python_qt_binding import QtGui
 # from PyQt5 import QtCore, QtGui, QtWidgets
 
-import rospy
-from blackboard.msg import TaskMsg
+import rclpy
+from message_pkg.msg import TaskMsg
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from std_msgs.msg import String
 from std_msgs.msg import Float32
-from blackboard.msg import bbBackup
+from message_pkg.msg import BBbackup
 from geometry_msgs.msg import Pose
 
 from threading import Lock

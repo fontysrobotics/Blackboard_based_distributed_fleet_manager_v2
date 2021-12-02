@@ -40,7 +40,7 @@ import random
 
 # ROS includes
 import roslib
-import rospy
+import rclpy
 from geometry_msgs.msg import Pose, Point, Quaternion, Vector3, Polygon
 from tf import transformations # rotation_matrix(), concatenate_matrices()
 
@@ -48,20 +48,20 @@ import rviz_tools_py as rviz_tools
 
 
 # Initialize the ROS Node
-rospy.init_node('test', anonymous=False, log_level=rospy.INFO, disable_signals=False)
+rclpy.init_node('test', anonymous=False, log_level=rclpy.INFO, disable_signals=False)
 
 # Define exit handler
 def cleanup_node():
-    print "Shutting down node"
+    print("Shutting down node")
     markers.deleteAllMarkers()
 
-rospy.on_shutdown(cleanup_node)
+rclpy.on_shutdown(cleanup_node)
 
 
 markers = rviz_tools.RvizMarkers('/map', 'visualization_marker')
 
 
-while not rospy.is_shutdown():
+while not rclpy.is_shutdown():
 
     # Axis:
 
@@ -76,4 +76,4 @@ while not rospy.is_shutdown():
     markers.publishArrow(P, 'pink', arrow_length, 5.0) # pose, color, arrow_length, lifetime
 
 
-    rospy.Rate(1).sleep() #1 Hz
+    rclpy.Rate(1).sleep() #1 Hz

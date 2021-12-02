@@ -1,0 +1,23 @@
+[0.432s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed
+[0.620s] running egg_info
+[0.620s] writing ../../build/blackboard/blackboard.egg-info/PKG-INFO
+[0.620s] writing dependency_links to ../../build/blackboard/blackboard.egg-info/dependency_links.txt
+[0.620s] writing entry points to ../../build/blackboard/blackboard.egg-info/entry_points.txt
+[0.621s] writing requirements to ../../build/blackboard/blackboard.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/blackboard/blackboard.egg-info/top_level.txt
+[0.652s] reading manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.652s] writing manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.653s] running build
+[0.653s] running build_py
+[0.653s] copying blackboard/Blackboard.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.653s] running install
+[0.654s] running install_lib
+[0.655s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Blackboard.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.655s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Blackboard.py to Blackboard.cpython-38.pyc
+[0.657s] running install_data
+[0.658s] running install_egg_info
+[0.659s] removing '/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info' (and everything under it)
+[0.659s] Copying ../../build/blackboard/blackboard.egg-info to /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info
+[0.660s] running install_scripts
+[0.675s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log'
+[0.698s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed

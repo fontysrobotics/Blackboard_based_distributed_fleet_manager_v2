@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'blackboardinstance = bbinstance.blackboardinstance:main',
-	    'gui = bbinstance.gui:main',
+	   # 'gui = bbinstance.gui:main',
 	    'robotInstance = bbinstance.robotInstance:main',
 	    'robotInstance2 = bbinstance.robotInstance2:main',
 	    'robotInstance3 = bbinstance.robotInstance3:main',

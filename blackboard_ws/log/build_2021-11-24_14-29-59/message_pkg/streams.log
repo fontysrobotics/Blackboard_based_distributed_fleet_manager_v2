@@ -1,0 +1,19 @@
+[0.064s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/message_pkg -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/message_pkg
+[0.099s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.157s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.473s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.739s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.740s]   rosidl_generate_interfaces() the passed file 'msg/bbBackup.msg' doesn't
+[0.740s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.740s]   '/home/mpcmeulensteen/blackboard_ws/src/message_pkg'
+[0.740s] Call Stack (most recent call first):
+[0.740s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.740s] 
+[0.741s] 
+[0.741s] -- Configuring incomplete, errors occurred!
+[0.741s] See also "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles/CMakeOutput.log".
+[0.754s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/message_pkg -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/message_pkg

@@ -1,0 +1,51 @@
+[0.099s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/message_pkg -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/message_pkg
+[0.139s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.193s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.195s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.484s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.508s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.852s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.197s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.197s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.197s]   message_pkg --arguments-file
+[1.197s]   /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter__arguments__message_pkg.json
+[1.197s]   --output-dir
+[1.198s]   /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg
+[1.198s]   --output-file
+[1.198s]   /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg.idls)
+[1.198s]   returned error code 1:
+[1.198s] 
+[1.198s]   Traceback (most recent call last):
+[1.198s] 
+[1.198s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.198s]       return _run_code(code, main_globals, None,
+[1.198s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.198s]       exec(code, run_globals)
+[1.198s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.198s]       sys.exit(main())
+[1.199s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.199s]       abs_idl_file = convert_to_idl(
+[1.199s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.199s]       return convert_msg_to_idl(
+[1.199s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.199s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.199s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[1.199s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.199s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[1.199s]       self.base_type = BaseType(
+[1.199s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[1.199s]       raise InvalidResourceName(
+[1.199s] 
+[1.199s]   rosidl_adapter.parser.InvalidResourceName: 'bbBackup' is an invalid message
+[1.199s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.199s] 
+[1.199s] Call Stack (most recent call first):
+[1.199s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.200s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[1.200s] 
+[1.200s] 
+[1.200s] -- Configuring incomplete, errors occurred!
+[1.200s] See also "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles/CMakeOutput.log".
+[1.211s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/message_pkg -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/message_pkg

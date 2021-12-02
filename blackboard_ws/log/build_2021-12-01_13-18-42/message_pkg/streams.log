@@ -1,0 +1,16 @@
+[0.029s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2
+[0.133s] [  1%] Built target message_pkg__cpp
+[0.148s] [ 12%] Built target message_pkg__rosidl_generator_c
+[0.185s] [ 23%] Built target message_pkg__rosidl_typesupport_cpp
+[0.198s] [ 34%] Built target message_pkg__rosidl_typesupport_fastrtps_cpp
+[0.254s] [ 46%] Built target message_pkg__rosidl_typesupport_c
+[0.266s] [ 57%] Built target message_pkg__rosidl_typesupport_introspection_cpp
+[0.318s] [ 68%] Built target message_pkg__rosidl_typesupport_introspection_c
+[0.329s] [ 79%] Built target message_pkg__rosidl_typesupport_fastrtps_c
+[0.378s] [ 79%] Built target message_pkg
+[0.407s] [ 80%] Built target message_pkg__py
+[0.453s] [ 90%] Built target message_pkg__python
+[0.517s] [ 93%] Built target message_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.526s] [ 96%] Built target message_pkg__rosidl_typesupport_introspection_c__pyext
+[0.562s] [100%] Built target message_pkg__rosidl_typesupport_c__pyext
+[0.593s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2

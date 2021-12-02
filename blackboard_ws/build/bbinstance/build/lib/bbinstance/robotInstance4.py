@@ -5,7 +5,6 @@ import rclpy
 from rclpy.node import Node
 from blackboard.Robot import Robot
 from blackboard.RosCommunication import Talker
-from rosnode import rosnode_ping
 from blackboard.Blackboard import Blackboard
 from blackboard.Battery import Battery
 

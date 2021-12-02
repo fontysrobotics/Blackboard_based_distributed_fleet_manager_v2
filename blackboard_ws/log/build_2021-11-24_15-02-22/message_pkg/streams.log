@@ -1,0 +1,53 @@
+[0.037s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/message_pkg -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/message_pkg
+[0.054s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.108s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.109s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.432s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.835s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.215s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.215s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.215s]   message_pkg --arguments-file
+[1.215s]   /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter__arguments__message_pkg.json
+[1.215s]   --output-dir
+[1.215s]   /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg
+[1.215s]   --output-file
+[1.215s]   /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg.idls)
+[1.215s]   returned error code 1:
+[1.215s] 
+[1.216s]   Error processing 'int16 taskId' of 'message_pkg/TaskCost': ''taskId' is an
+[1.216s]   invalid field name.  It should have the pattern
+[1.216s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.216s] 
+[1.216s]   Traceback (most recent call last):
+[1.216s] 
+[1.216s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.216s]       return _run_code(code, main_globals, None,
+[1.216s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.217s]       exec(code, run_globals)
+[1.217s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.217s]       sys.exit(main())
+[1.217s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.217s]       abs_idl_file = convert_to_idl(
+[1.217s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.217s]       return convert_msg_to_idl(
+[1.217s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.218s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.218s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[1.218s]       fields.append(Field(
+[1.218s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[1.218s]       raise NameError(
+[1.218s] 
+[1.221s]   NameError: 'taskId' is an invalid field name.  It should have the pattern
+[1.221s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.221s] 
+[1.221s] Call Stack (most recent call first):
+[1.221s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.222s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[1.222s] 
+[1.222s] 
+[1.222s] -- Configuring incomplete, errors occurred!
+[1.222s] See also "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles/CMakeOutput.log".
+[1.271s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/mpcmeulensteen/blackboard_ws/src/message_pkg -DCMAKE_INSTALL_PREFIX=/home/mpcmeulensteen/blackboard_ws/install/message_pkg

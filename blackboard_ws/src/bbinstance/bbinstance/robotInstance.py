@@ -1,11 +1,11 @@
 #!/usr/bin python3
 #need to point to classes inorder to import
 import rclpy
-
 from rclpy.node import Node
+
+import blackboard
 from blackboard.Robot import Robot
 from blackboard.RosCommunication import Talker
-from rosnode import rosnode_ping
 from blackboard.Blackboard import Blackboard
 from blackboard.Battery import Battery
 

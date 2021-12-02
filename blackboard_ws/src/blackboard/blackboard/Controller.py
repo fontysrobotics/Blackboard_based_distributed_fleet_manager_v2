@@ -17,13 +17,16 @@
 
 from blackboard.RosCommunication import Talker
 import rclpy
-import actionlib
+#import actionlib
 from blackboard.Task import *
-from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
+#from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from threading import Thread
+from geometry_msgs.msg import PoseStamped
+from rclpy.duration import Duration
+#from robot_navigator import BasicNavigator, Navi
 
 # movebase command class start
-class MoveBaseCommand:
+class MoveBaseCommand(Node):
     def __init__(self, robotid):                                # pass robot id to use in movebase topic name
         self.robotid = robotid
         moveBaseTopic = robotid+"/move_base"     # set movebase topic "RULE: /Robotx/move_base" x is robot id
@@ -35,16 +38,16 @@ class MoveBaseCommand:
         
     # send a goal to movebase action server
     def sendGoal(self, goal):
-        movebasegoal = MoveBaseGoal()                                  # instance of movebase goal
-        movebasegoal.target_pose.header.frame_id = "map"               # with respect to global frame " map "
-        movebasegoal.target_pose.header.stamp = rclpy.Time.now()       # time stamp, moment of sending the goal
-        movebasegoal.target_pose.pose.position.x = goal.position.x     # goal position x, passed goal
-        movebasegoal.target_pose.pose.position.y = goal.position.y     # goal position y, passed goal
-        movebasegoal.target_pose.pose.orientation.w = 1.0              
+        movebasegoal = PoseStamped()                                  # instance of movebase goal
+        movebasegoal.goal_pose.header.frame_id = "map"               # with respect to global frame " map "
+        movebasegoal.goal_pose.header.stamp = navigator.get_clock()       # time stamp, moment of sending the goal
+        movebasegoal.goal_pose.pose.position.x = goal.position.x     # goal position x, passed goal
+        movebasegoal.goal_pose.pose.position.y = goal.position.y     # goal position y, passed goal
+        movebasegoal.goal_pose.pose.orientation.w = 1.0              
         self.client.send_goal(movebasegoal)                            # send the goal instance
 
 # class controller start
-class Controller:
+class Controller(Node):
     def __init__(self, robotid):
         self.stepcounter = 0                                # holds the number of steps to execute
         self.robotid = robotid                              # used to be passed to movebase command object

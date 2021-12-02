@@ -1,0 +1,15 @@
+[0.023s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2
+[0.091s] [  1%] Built target message_pkg__cpp
+[0.130s] [ 12%] Built target message_pkg__rosidl_typesupport_cpp
+[0.152s] [ 23%] Built target message_pkg__rosidl_generator_c
+[0.176s] [ 34%] Built target message_pkg__rosidl_typesupport_fastrtps_cpp
+[0.213s] [ 46%] Built target message_pkg__rosidl_typesupport_introspection_cpp
+[0.244s] [ 57%] Built target message_pkg__rosidl_typesupport_introspection_c
+[0.276s] [ 68%] Built target message_pkg__rosidl_typesupport_fastrtps_c
+[0.291s] [ 79%] Built target message_pkg__rosidl_typesupport_c
+[0.317s] [ 79%] Built target message_pkg
+[0.343s] [ 80%] Built target message_pkg__py
+[0.380s] [ 90%] Built target message_pkg__python
+[0.447s] [ 93%] Built target message_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.474s] [ 96%] Built target message_pkg__rosidl_typesupport_introspection_c__pyext
+[0.504s] [100%] Built target message_pkg__rosidl_typesupport_c__pyext

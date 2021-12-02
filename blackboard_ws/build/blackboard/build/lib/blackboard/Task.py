@@ -8,7 +8,7 @@
 # function
 #----------------------------------------------------------------
 
-
+from rclpy.node import Node
 from enum import Enum
 from geometry_msgs.msg import Pose
 import time
@@ -30,7 +30,7 @@ class TaskState(Enum):
 
 
 # start task class
-class Task:
+class Task(Node):
     # initilize a task object with the passed parameters
     def __init__(self,taskID,
                  priority,

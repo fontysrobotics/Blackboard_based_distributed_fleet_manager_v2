@@ -1,0 +1,6 @@
+{
+  "package_name": "move_base_msgs",
+  "non_idl_tuples": [
+    "/home/mpcmeulensteen/blackboard_ws/src/navigation_msgs-foxy/move_base_msgs:action/MoveBase.action"
+  ]
+}

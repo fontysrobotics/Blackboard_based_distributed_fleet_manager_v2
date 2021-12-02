@@ -16,22 +16,21 @@
 
 import random                                                  # for testing purboses
 from enum import Enum         
-
-import rclpy   
-
+ 
+from rclpy.node import Node
 from geometry_msgs.msg import Pose                             # ros pose msg
 from geometry_msgs.msg import PoseWithCovarianceStamped
-from rosnode import rosnode_ping                               # ROS node ping                  
-from blackboard.msg import TaskMsg                             # ROS custom msgs
-from blackboard.msg import TaskCost                            #
-from blackboard.msg import bbBackup                            #
+                 
+from message_pkg.msg import TaskMsg                             # ROS custom msgs
+from message_pkg.msg import TaskCost                            #
+from message_pkg.msg import BBbackup                            #
 from std_msgs.msg import String                                #
-from blackboard.msg import TaskStateMsg                        #
+from message_pkg.msg import TaskStateMsg                        #
 
-from RosCommunication import Talker                            # blackboard package classes
-from Blackboard import Blackboard                              #                        
+from blackboard.RosCommunication import Talker                            # blackboard package classes
+from blackboard.Blackboard import Blackboard                              #                        
 from blackboard.Controller import Controller                   #
-from Task import Task, TaskState, TaskType, TaskStep, StepType #
+from blackboard.Task import Task, TaskState, TaskType, TaskStep, StepType #
 from blackboard.Battery import Battery
 
 from threading import Lock,Thread                              # Python threading
@@ -45,7 +44,7 @@ class RobotState(Enum):
     idle = 2
 
 # Start Robot class
-class Robot:
+class Robot(Node):
     def __init__(self, bbAdress, backupAdress, robotId, robotType, repeatability, accuracy, payload, mxVelLinear, mxVelAngular, battery,nodeName,talker):
         self.talker = talker                    # ROS publishers ande node init
         self.bb = Blackboard(0,self.talker)     # inactive instance of blackboared

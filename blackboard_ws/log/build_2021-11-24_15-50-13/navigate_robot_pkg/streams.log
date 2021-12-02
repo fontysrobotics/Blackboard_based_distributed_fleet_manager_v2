@@ -1,0 +1,20 @@
+[0.024s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg -- -j2 -l2
+[0.099s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg -- -j2 -l2
+[0.127s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg
+[0.141s] -- Install configuration: ""
+[0.144s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/ament_index/resource_index/package_run_dependencies/navigate_robot_pkg
+[0.145s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/ament_index/resource_index/parent_prefix_path/navigate_robot_pkg
+[0.145s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/ament_prefix_path.sh
+[0.146s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/ament_prefix_path.dsv
+[0.146s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/path.sh
+[0.146s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/environment/path.dsv
+[0.146s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.bash
+[0.147s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.sh
+[0.147s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.zsh
+[0.147s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/local_setup.dsv
+[0.149s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/package.dsv
+[0.150s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/ament_index/resource_index/packages/navigate_robot_pkg
+[0.151s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/cmake/navigate_robot_pkgConfig.cmake
+[0.151s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/cmake/navigate_robot_pkgConfig-version.cmake
+[0.151s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/navigate_robot_pkg/share/navigate_robot_pkg/package.xml
+[0.155s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/turtlebot3_ws/install/turtlebot3_example:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/colcon_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg

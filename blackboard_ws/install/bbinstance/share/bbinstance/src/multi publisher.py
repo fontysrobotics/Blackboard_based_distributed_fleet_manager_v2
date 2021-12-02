@@ -1,7 +1,7 @@
 #need to point to classes inorder to import
 import time
 import sys
-import rospy
+import rclpy
 sys.path.append('../include/blackboard')
 
 from std_msgs.msg import String

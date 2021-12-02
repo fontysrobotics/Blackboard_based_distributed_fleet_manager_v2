@@ -1,0 +1,22 @@
+[  1%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o[0m
+[  3%] Built target message_pkg__cpp
+In file included from [01m[K/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h:19[m[K,
+                 from [01m[K/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c:4[m[K:
+[01m[K/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kblackboard/msg/detail/task_msg__struct.h: No such file or directory
+   22 | #include [01;31m[K"blackboard/msg/detail/task_msg__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/message_pkg__rosidl_generator_c.dir/build.make:169: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:334: CMakeFiles/message_pkg__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  4%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/task_cost__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bsynch__type_support.cpp.o[0m
+In file included from [01m[K/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_cpp/message_pkg/msg/b_bsynch__type_support.cpp:7[m[K:
+[01m[K/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kblackboard/msg/detail/task_msg__struct.hpp: No such file or directory
+   19 | #include [01;31m[K"blackboard/msg/detail/task_msg__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/build.make:102: CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bsynch__type_support.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

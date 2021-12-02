@@ -15,18 +15,19 @@
 
 
 import rclpy
-from Task import Task,TaskState,TaskStep,TaskType  # task class, and enums
-from RosCommunication import Talker                # RosCommunication instance inits Node, publishers
+from rclpy.node import Node
+from blackboard.Task import Task,TaskState,TaskStep,TaskType  # task class, and enums
+from blackboard.RosCommunication import Talker                # RosCommunication instance inits Node, publishers
 from std_msgs.msg import String                    # Message Type
-from blackboard.msg import TaskMsg                 # Custom ROS messages
-from blackboard.msg import TaskCost                #
-from blackboard.msg import bbBackup                #
-from blackboard.msg import bbsynch                 #
-from blackboard.msg import TaskStateMsg            #
+from message_pkg.msg import TaskMsg                 # Custom ROS messages
+from message_pkg.msg import TaskCost                #
+from message_pkg.msg import BBbackup                #
+from message_pkg.msg import BBsynch                 #
+from message_pkg.msg import TaskStateMsg            #
 
 
 #Class blackboard Start:
-class Blackboard:
+class Blackboard(Node):
     #Class constructor
     def __init__(self, state,talker):                # talker of ROS communication Class type
         
@@ -38,11 +39,11 @@ class Blackboard:
             self.taskList = []                       # Local list of Tasks                     
             self.buAdress = 'robot1'                 # Current backup adress "Static for testing purposes -> change to a list based on processing resouces"
 
-            # ROS topic subscribers (ROS Topic Name , Message Type, Callback function)
-            rclpy.Subscriber('newTask',TaskMsg,self.addTask)
-            rclpy.Subscriber('taskCost',TaskCost,self.processTaskCost)
-            rclpy.Subscriber('TaskStateMsg',TaskStateMsg,self.taskStateUpdate)
-
+            # ROS topic subscribers (ROS Message Type, Topic Name , Callback function, QoS)
+            Node.create_subscription(self, TaskMsg, 'newTask', self.addTask, 1, Node.default_callback_group)
+            Node.create_subscription(self, TaskCost, 'taskCost', self.processTaskCost, 1, Node.default_callback_group)
+            Node.create_subscription(self, TaskStateMsg, 'TaskStateMsg', self.taskStateUpdate, 1, Node.default_callback_group)
+            
             # ROS Timers invoked every rclpy.Duration in seconds (duration in seconds , callback function)
             self.bbBackuptimer = rclpy.Timer(rclpy.Duration(1),self.bbBackup)
             self.syncTimer = rclpy.Timer(rclpy.Duration(2),self.bbsynch)
@@ -62,7 +63,7 @@ class Blackboard:
     # Callback in self.syncTimer rclpy.Timer used to syncronize current task list with backup blackboard, and taskview
     def bbsynch(self,event):
         syncarray = []                                  # temp array to be sent over synch topic
-        sync = bbsynch()                                # declare a custom message instance
+        sync = BBsynch()                                # declare a custom message instance
         for task in self.taskList:                      # loop over local task list and convert to custom ROS TaskMsg 'bbsynch'
             tmsg = TaskMsg()                            #
             tmsg.taskId = task.taskId                   #
@@ -141,7 +142,7 @@ class Blackboard:
 
     # Callback triggered over ROS timer every rclpy.duration to broadcast current blackboard and backup adresses 
     def bbBackup(self,event=None):
-        bumsg = bbBackup()                          # instance of custom ROS msg
+        bumsg = BBbackup()                          # instance of custom ROS msg
         bumsg.bbAdress = self.talker.nodeName       # blackboard adress
         bumsg.buAdress = self.buAdress              # backup adress 
         self.talker.pub_bbBackup.publish(bumsg)     # publish over the topic

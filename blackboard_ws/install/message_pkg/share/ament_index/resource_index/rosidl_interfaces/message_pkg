@@ -1,0 +1,10 @@
+msg/BBbackup.idl
+msg/BBbackup.msg
+msg/BBsynch.idl
+msg/BBsynch.msg
+msg/TaskCost.idl
+msg/TaskCost.msg
+msg/TaskMsg.idl
+msg/TaskMsg.msg
+msg/TaskStateMsg.idl
+msg/TaskStateMsg.msg

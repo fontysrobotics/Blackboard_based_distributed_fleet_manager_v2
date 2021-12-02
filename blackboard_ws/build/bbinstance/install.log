@@ -7,7 +7,6 @@
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/robotInstance5.py
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/interface.py
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/monitor.py
-/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/blackboardinstance.py.py
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/taskview.py
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__init__.py
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/gui.py
@@ -22,7 +21,6 @@
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/robotInstance5.cpython-38.pyc
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/interface.cpython-38.pyc
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/monitor.cpython-38.pyc
-/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/blackboardinstance.py.cpython-38.pyc
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/taskview.cpython-38.pyc
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/__init__.cpython-38.pyc
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/__pycache__/gui.cpython-38.pyc
@@ -38,7 +36,6 @@
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info/zip-safe
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info/SOURCES.txt
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance/blackboardinstance
-/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance/gui
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance/robotInstance
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance/robotInstance2
 /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance/robotInstance3

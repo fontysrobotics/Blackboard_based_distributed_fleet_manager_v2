@@ -9,11 +9,11 @@ from python_qt_binding import QtGui
 import rclpy
 
 from rclpy.node import Node
-from blackboard.msg import TaskMsg
+from message_pkg.msg import TaskMsg
 from blackboard.Task import Task,TaskType,TaskStep,TaskState
 from std_msgs.msg import String
 from std_msgs.msg import Float32
-from blackboard.msg import bbBackup
+from message_pkg.msg import BBbackup
 from geometry_msgs.msg import Pose , PointStamped
 
 from threading import Lock
