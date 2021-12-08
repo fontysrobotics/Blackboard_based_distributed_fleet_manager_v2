@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'RosCommunication = ros2_blackboard.RosCommunication:main',
             'testMain = ros2_blackboard.testMain:main',
+            'service = ros2_blackboard.service_member_function:main',
         ],
     },
 )

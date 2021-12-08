@@ -8,7 +8,7 @@ class MoveBaseCommand(Node):
     def __init__(self, robotid):
         super().__init__('movebasecommand')
         self.robotid = robotid
-        moveBaseTopic = robotid+"/move_base"
+        moveBaseTopic = "robot" + str(self.robotid)+"/move_base"
         self.client = ActionClient(
             self, MoveBase, moveBaseTopic)
         self.client.wait_for_server()

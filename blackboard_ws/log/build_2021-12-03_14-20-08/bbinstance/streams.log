@@ -1,0 +1,26 @@
+[0.250s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/bbinstance': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log --single-version-externally-managed
+[0.503s] running egg_info
+[0.505s] writing ../../build/bbinstance/bbinstance.egg-info/PKG-INFO
+[0.505s] writing dependency_links to ../../build/bbinstance/bbinstance.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../../build/bbinstance/bbinstance.egg-info/entry_points.txt
+[0.506s] writing requirements to ../../build/bbinstance/bbinstance.egg-info/requires.txt
+[0.506s] writing top-level names to ../../build/bbinstance/bbinstance.egg-info/top_level.txt
+[0.565s] reading manifest file '../../build/bbinstance/bbinstance.egg-info/SOURCES.txt'
+[0.566s] writing manifest file '../../build/bbinstance/bbinstance.egg-info/SOURCES.txt'
+[0.567s] running build
+[0.567s] running build_py
+[0.568s] running install
+[0.576s] running install_lib
+[0.578s] running install_data
+[0.578s] running install_egg_info
+[0.581s] removing '/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info' (and everything under it)
+[0.581s] Copying ../../build/bbinstance/bbinstance.egg-info to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance-0.0.0-py3.8.egg-info
+[0.583s] running install_scripts
+[0.618s] Installing blackboardinstance script to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance
+[0.618s] Installing robotInstance script to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance
+[0.619s] Installing robotInstance2 script to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance
+[0.619s] Installing robotInstance3 script to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance
+[0.619s] Installing robotInstance4 script to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance
+[0.620s] Installing taskview script to /home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/bbinstance
+[0.620s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log'
+[0.844s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/bbinstance' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/bbinstance/install.log --single-version-externally-managed
