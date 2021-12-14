@@ -5,10 +5,10 @@ from message_pkg.msg import TaskMsg, TaskCost, TaskStateMsg, BBsynch, BBbackup
 
 
 class Blackboard(Node):
-    def __init__(self, state, publisher):
+    def __init__(self, state, talker):
         super().__init__('blackboard')
         self.state = state
-        self.publisher = publisher
+        self.talker = talker
         self.robotnr = 4
 
         if state == 1:
@@ -58,7 +58,7 @@ class Blackboard(Node):
             tmsg.robotid = task.robotId
             syncarray.append(tmsg)
         sync.tasks = syncarray
-        self.publisher.pub_bbSync.publish(sync)
+        self.talker.pub_bbSync.publish(sync)
 
 
     #newTask data received --> callback checks for task and broadcasts it
@@ -82,7 +82,7 @@ class Blackboard(Node):
         tmsg.payload = task.payload
         tmsg.taskstate = task.taskState.value
         tmsg.pose = task.pose
-        self.publisher.pub_taskBC.publish(tmsg)
+        self.talker.pub_taskBC.publish(tmsg)
 
 
     #Callback triggered by the taskCost topic. 
@@ -114,12 +114,12 @@ class Blackboard(Node):
             tmsg.cost = task.cost
             tmsg.energycost = task.energyCost
             task.taskstate = TaskState.Assigned
-            self.publisher.pub_taskAssign.publish(tmsg)
+            self.talker.pub_taskAssign.publish(tmsg)
     
 
     #Ros timer callback broadcasts current blackboard and backup adresses
     def bbBackup(self, event=None):
         bumsg = BBbackup()
-        bumsg.bbadress = self.publisher.nodeName
+        bumsg.bbadress = self.talker.nodeName
         bumsg.buadress = self.buAdress
-        self.publisher.pub_bbBackup.publish(bumsg)
+        self.talker.pub_bbBackup.publish(bumsg)

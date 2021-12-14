@@ -30,6 +30,7 @@ from message_pkg.msg import TaskStateMsg            #
 class Blackboard(Node):
     #Class constructor
     def __init__(self, state,talker):                # talker of ROS communication Class type
+        
         self.state   = state                         # 0/1 state used to initilize an inactive instance
         self.talker  = talker                        # init talker
         self.robotnr = 4                             # Keeps track of current Nr of active robots "static for test purposes"
@@ -39,9 +40,9 @@ class Blackboard(Node):
             self.buAdress = 'robot1'                 # Current backup adress "Static for testing purposes -> change to a list based on processing resouces"
 
             # ROS topic subscribers (ROS Message Type, Topic Name , Callback function, QoS)
-            self.create_subscription(self, TaskMsg, 'newTask', self.addTask, 1, Node.default_callback_group)
-            self.create_subscription(self, TaskCost, 'taskCost', self.processTaskCost, 1, Node.default_callback_group)
-            self.create_subscription(self, TaskStateMsg, 'TaskStateMsg', self.taskStateUpdate, 1, Node.default_callback_group)
+            Node.create_subscription(self, TaskMsg, 'newTask', self.addTask, 1, Node.default_callback_group)
+            Node.create_subscription(self, TaskCost, 'taskCost', self.processTaskCost, 1, Node.default_callback_group)
+            Node.create_subscription(self, TaskStateMsg, 'TaskStateMsg', self.taskStateUpdate, 1, Node.default_callback_group)
             
             # ROS Timers invoked every rclpy.Duration in seconds (duration in seconds , callback function)
             self.bbBackuptimer = rclpy.Timer(rclpy.Duration(1),self.bbBackup)

@@ -1,5 +1,4 @@
 [console_scripts]
 RosCommunication = ros2_blackboard.RosCommunication:main
-service = ros2_blackboard.service_member_function:main
 testMain = ros2_blackboard.testMain:main
 

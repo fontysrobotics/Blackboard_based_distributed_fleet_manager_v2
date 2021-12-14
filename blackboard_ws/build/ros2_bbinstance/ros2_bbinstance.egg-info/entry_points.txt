@@ -1,3 +1,0 @@
-[console_scripts]
-gui = ros2_bbinstance.gui:main
-

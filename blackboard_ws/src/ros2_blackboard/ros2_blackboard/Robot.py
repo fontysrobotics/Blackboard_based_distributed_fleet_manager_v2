@@ -14,7 +14,7 @@ from ros2_blackboard.Blackboard import Blackboard
 from ros2_blackboard.Controller import Controller
 from ros2_blackboard.Task import Task, TaskState
 
-from threading import Lock, Thread, current_thread
+from threading import Lock, Thread
 import math
 
 class RobotState(Enum):
@@ -23,10 +23,10 @@ class RobotState(Enum):
     idle = 2
 
 class Robot(Node):
-    def __init__(self, bbAdress, backupAdress, robotId, robotType, repeatability, accuracy, payload, maxVelLinear, maxVelAngular, battery, nodeName, talker, bb):
+    def __init__(self, bbAdress, backupAdress, robotId, robotType, repeatability, accuracy, payload, maxVelLinear, maxVelAngular, battery, nodeName, talker):
         super().__init__('robot')
         self.talker = talker
-        self.bb = bb
+        self.bb = Blackboard(0, self.talker)
         self.bbAdress = bbAdress
         self.buAdress = backupAdress
         self.robotId = robotId
@@ -44,20 +44,18 @@ class Robot(Node):
         self.bbState = True
         self.currentTaskList = []
         self.currentTaskid = 0
-        self.taskCounter = -1
         self.currentTask = None
         self.amclx = 0
         self.amcly = 0
 
-        
         self.controller = Controller(nodeName)
-        self.taskBCSub = self.create_subscription(TaskMsg, '/taskBC', self.getTaskCost, 1)
-        self.taskAssignSub = self.create_subscription(TaskMsg, '/taskAssign', self.addTask, 1)
+        self.taskBCSub = self.create_subscription(TaskMsg, '/taskBC', self.getTaskCost)
+        self.taskAssignSub = self.create_subscription(TaskMsg, 'taskAssign', self.addTask)
         amclPose = '/'+self.nodeName+'/amcl_pose'
-        self.amclPoseSub = self.create_subscription(PoseWithCovarianceStamped, amclPose, self.initialPose, 1)
-        self.bbBackupSub = self.create_subscription(BBbackup, '/bbBackup', self.bbBackup, 1)
+        self.amclPoseSub = self.create_subscription(PoseWithCovarianceStamped, amclPose, self.initialPose)
+        self.bbBackupSub = self.create_subscription(BBbackup, 'bbBackup', self.bbBackup)
 
-        self.pingTimer = self.create_timer(5, self.checkBlackboardStatus)
+        #self.pingTimer = self.create_timer(5, self.pingBlackboard)
         self.bbBackupTimer = self.create_timer(3, self.bbBackupActivate)
         self.exeTimer = self.create_timer(1, self.executeTask)
 
@@ -103,6 +101,7 @@ class Robot(Node):
             self.addtaskLock.release()
 
     def getTaskCost(self, data):
+        print('getTaskCost entered')
         print(data)
         if self.taskCostLock.locked() is False:
             self.taskCostLock.acquire()
@@ -172,7 +171,7 @@ class Robot(Node):
             self.talker.pub_taskCost.publish(tskCst)   
             self.updateLock.release()
     
-    def executeTask(self):
+    def executeTask(self, event):
         if self.taskCounter >= 0:
             statemsg = TaskStateMsg()
             if self.execLock.locked() is False:
@@ -208,15 +207,15 @@ class Robot(Node):
     def setState(self,state):
         self.state = state
 
-    def checkBlackboardStatus(self):
+    def pingBlackboard(self, event):
         if self.pingLock.locked() is False:
             self.pingLock.acquire()
-            nodesList = self.get_node_names()
-            if ("blackboard" not in nodesList):
+            #self.bbState = rosnode_ping(self.bbAdress, 1) #No ping in ros2, Subscribe to topic that publishes bbAdress status???
+            if self.bbState is False:
                 self.bbthread = Thread(target=self.bbBackupActivate)
             self.pingLock.release()
     
-    def bbBackupActivate(self):
+    def bbBackupActivate(self, event):
         if self.bbactivateLock.locked() is False:
             self.bbactivateLock.acquire()
             if self.bbState is False:
