@@ -1,0 +1,29 @@
+[0.435s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_blackboard': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard --record /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/install.log --single-version-externally-managed
+[0.744s] running egg_info
+[0.746s] writing ../../build/ros2_blackboard/ros2_blackboard.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../build/ros2_blackboard/ros2_blackboard.egg-info/dependency_links.txt
+[0.750s] writing entry points to ../../build/ros2_blackboard/ros2_blackboard.egg-info/entry_points.txt
+[0.751s] writing requirements to ../../build/ros2_blackboard/ros2_blackboard.egg-info/requires.txt
+[0.751s] writing top-level names to ../../build/ros2_blackboard/ros2_blackboard.egg-info/top_level.txt
+[0.798s] reading manifest file '../../build/ros2_blackboard/ros2_blackboard.egg-info/SOURCES.txt'
+[0.800s] writing manifest file '../../build/ros2_blackboard/ros2_blackboard.egg-info/SOURCES.txt'
+[0.801s] running build
+[0.801s] running build_py
+[0.802s] copying ros2_blackboard/testMain.py -> /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build/lib/ros2_blackboard
+[0.805s] copying ros2_blackboard/Robot.py -> /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build/lib/ros2_blackboard
+[0.805s] running install
+[0.805s] running install_lib
+[0.810s] copying /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build/lib/ros2_blackboard/testMain.py -> /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard
+[0.810s] copying /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build/lib/ros2_blackboard/Robot.py -> /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard
+[0.813s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard/testMain.py to testMain.cpython-38.pyc
+[0.815s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard/Robot.py to Robot.cpython-38.pyc
+[0.817s] running install_data
+[0.819s] running install_egg_info
+[0.821s] removing '/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard-0.0.0-py3.8.egg-info' (and everything under it)
+[0.823s] Copying ../../build/ros2_blackboard/ros2_blackboard.egg-info to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard-0.0.0-py3.8.egg-info
+[0.823s] running install_scripts
+[0.843s] Installing RosCommunication script to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/ros2_blackboard
+[0.849s] Installing service script to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/ros2_blackboard
+[0.849s] Installing testMain script to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/ros2_blackboard
+[0.850s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/install.log'
+[0.878s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_blackboard' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard --record /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/install.log --single-version-externally-managed

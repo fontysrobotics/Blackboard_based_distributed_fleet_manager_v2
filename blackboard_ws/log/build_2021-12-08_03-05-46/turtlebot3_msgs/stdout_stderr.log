@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/turtlebot3_msgs/CMakeCache.txt is different than the directory /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/mpcmeulensteen/blackboard_ws/src/turtlebot3_msgs" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:1948: cmake_check_build_system] Error 1

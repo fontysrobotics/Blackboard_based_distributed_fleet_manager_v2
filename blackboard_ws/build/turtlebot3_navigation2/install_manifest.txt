@@ -1,8 +1,8 @@
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
-/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
-/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2

@@ -1,0 +1,21 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_simulations
+-- Install configuration: ""
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+-- Installing: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml

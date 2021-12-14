@@ -1,11 +1,11 @@
-/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
-/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
-/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
 /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh

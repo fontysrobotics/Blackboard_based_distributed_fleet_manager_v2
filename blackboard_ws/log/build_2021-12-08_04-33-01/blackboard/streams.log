@@ -1,0 +1,43 @@
+[0.264s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed
+[0.467s] running egg_info
+[0.468s] writing ../../build/blackboard/blackboard.egg-info/PKG-INFO
+[0.469s] writing dependency_links to ../../build/blackboard/blackboard.egg-info/dependency_links.txt
+[0.469s] writing entry points to ../../build/blackboard/blackboard.egg-info/entry_points.txt
+[0.469s] writing requirements to ../../build/blackboard/blackboard.egg-info/requires.txt
+[0.470s] writing top-level names to ../../build/blackboard/blackboard.egg-info/top_level.txt
+[0.502s] reading manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.503s] writing manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.504s] running build
+[0.504s] running build_py
+[0.504s] copying blackboard/Blackboard.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.505s] copying blackboard/Controller.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.505s] copying blackboard/Robot.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.506s] copying blackboard/RosCommunication.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.506s] copying blackboard/Battery.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.506s] copying blackboard/Task.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.506s] copying blackboard/__init__.py -> /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard
+[0.507s] running install
+[0.508s] running install_lib
+[0.509s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Blackboard.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.509s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Controller.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.509s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Robot.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.509s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/RosCommunication.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.510s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Battery.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.510s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/Task.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.510s] copying /home/mpcmeulensteen/blackboard_ws/build/blackboard/build/lib/blackboard/__init__.py -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard
+[0.511s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Blackboard.py to Blackboard.cpython-38.pyc
+[0.513s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Controller.py to Controller.cpython-38.pyc
+[0.514s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Robot.py to Robot.cpython-38.pyc
+[0.516s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/RosCommunication.py to RosCommunication.cpython-38.pyc
+[0.517s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Battery.py to Battery.cpython-38.pyc
+[0.517s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Task.py to Task.cpython-38.pyc
+[0.518s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/__init__.py to __init__.cpython-38.pyc
+[0.518s] running install_data
+[0.520s] copying resource/blackboard -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/share/ament_index/resource_index/packages
+[0.520s] copying package.xml -> /home/mpcmeulensteen/blackboard_ws/install/blackboard/share/blackboard
+[0.520s] running install_egg_info
+[0.522s] removing '/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info' (and everything under it)
+[0.522s] Copying ../../build/blackboard/blackboard.egg-info to /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info
+[0.524s] running install_scripts
+[0.540s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log'
+[0.565s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed

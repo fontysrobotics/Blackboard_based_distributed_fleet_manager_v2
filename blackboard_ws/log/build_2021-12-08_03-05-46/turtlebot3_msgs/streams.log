@@ -1,0 +1,6 @@
+[0.024s] Invoking command in '/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/turtlebot3_msgs -- -j2 -l2
+[0.066s] CMake Error: The current CMakeCache.txt directory /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/turtlebot3_msgs/CMakeCache.txt is different than the directory /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.087s] CMake Error: The source directory "/home/mpcmeulensteen/blackboard_ws/src/turtlebot3_msgs" does not exist.
+[0.087s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.090s] make: *** [Makefile:1948: cmake_check_build_system] Error 1
+[0.093s] Invoked command in '/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/turtlebot3_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/turtlebot3_msgs -- -j2 -l2

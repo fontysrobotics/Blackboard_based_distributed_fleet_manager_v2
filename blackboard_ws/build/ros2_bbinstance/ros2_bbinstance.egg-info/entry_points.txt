@@ -1,0 +1,6 @@
+[console_scripts]
+blackboardinstance = ros2_bbinstance.blackboardinstance:main
+gui = ros2_bbinstance.gui:main
+robotInstance = ros2_bbinstance.robotInstance:main
+taskview = ros2_bbinstance.taskview:main
+

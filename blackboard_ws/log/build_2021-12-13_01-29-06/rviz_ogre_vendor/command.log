@@ -1,0 +1,4 @@
+Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor -- -j2 -l2
+Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor -- -j2 -l2
+Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor
+Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/rviz_ogre_vendor

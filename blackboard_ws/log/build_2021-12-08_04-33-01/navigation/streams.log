@@ -1,0 +1,25 @@
+[0.495s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/navigation': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /home/mpcmeulensteen/blackboard_ws/build/navigation/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/navigation --record /home/mpcmeulensteen/blackboard_ws/build/navigation/install.log --single-version-externally-managed
+[0.844s] running egg_info
+[0.846s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[0.848s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[0.849s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[0.850s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[0.851s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[0.913s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[0.919s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[0.922s] running build
+[0.923s] running build_py
+[0.924s] copying navigation/__init__.py -> /home/mpcmeulensteen/blackboard_ws/build/navigation/build/lib/navigation
+[0.925s] running install
+[0.927s] running install_lib
+[0.928s] copying /home/mpcmeulensteen/blackboard_ws/build/navigation/build/lib/navigation/__init__.py -> /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation
+[0.929s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation/__init__.py to __init__.cpython-38.pyc
+[0.931s] running install_data
+[0.933s] copying resource/navigation -> /home/mpcmeulensteen/blackboard_ws/install/navigation/share/ament_index/resource_index/packages
+[0.934s] copying package.xml -> /home/mpcmeulensteen/blackboard_ws/install/navigation/share/navigation
+[0.935s] running install_egg_info
+[0.938s] removing '/home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info' (and everything under it)
+[0.939s] Copying ../../build/navigation/navigation.egg-info to /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info
+[0.942s] running install_scripts
+[0.980s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/navigation/install.log'
+[1.056s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/navigation' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /home/mpcmeulensteen/blackboard_ws/build/navigation/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/navigation --record /home/mpcmeulensteen/blackboard_ws/build/navigation/install.log --single-version-externally-managed

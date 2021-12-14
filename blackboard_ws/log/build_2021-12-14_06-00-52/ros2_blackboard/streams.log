@@ -1,0 +1,23 @@
+[0.415s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_blackboard': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard --record /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/install.log --single-version-externally-managed
+[0.662s] running egg_info
+[0.662s] writing ../../build/ros2_blackboard/ros2_blackboard.egg-info/PKG-INFO
+[0.662s] writing dependency_links to ../../build/ros2_blackboard/ros2_blackboard.egg-info/dependency_links.txt
+[0.662s] writing entry points to ../../build/ros2_blackboard/ros2_blackboard.egg-info/entry_points.txt
+[0.662s] writing requirements to ../../build/ros2_blackboard/ros2_blackboard.egg-info/requires.txt
+[0.662s] writing top-level names to ../../build/ros2_blackboard/ros2_blackboard.egg-info/top_level.txt
+[0.697s] reading manifest file '../../build/ros2_blackboard/ros2_blackboard.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../../build/ros2_blackboard/ros2_blackboard.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.698s] running build_py
+[0.699s] running install
+[0.702s] running install_lib
+[0.705s] running install_data
+[0.706s] running install_egg_info
+[0.707s] removing '/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard-0.0.0-py3.8.egg-info' (and everything under it)
+[0.712s] Copying ../../build/ros2_blackboard/ros2_blackboard.egg-info to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages/ros2_blackboard-0.0.0-py3.8.egg-info
+[0.713s] running install_scripts
+[0.731s] Installing RosCommunication script to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/ros2_blackboard
+[0.732s] Installing service script to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/ros2_blackboard
+[0.732s] Installing testMain script to /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/ros2_blackboard
+[0.733s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/install.log'
+[0.751s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_blackboard' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard --record /home/mpcmeulensteen/blackboard_ws/build/ros2_blackboard/install.log --single-version-externally-managed

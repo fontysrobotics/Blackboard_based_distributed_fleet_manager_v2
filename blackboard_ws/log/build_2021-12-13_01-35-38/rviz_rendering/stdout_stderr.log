@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target rviz_rendering[0m
+[  5%] Built target gmock
+[  8%] Built target gmock_main
+[ 10%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/ogre_logging.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader.cpp.o[0m
+In file included from [01m[K/home/mpcmeulensteen/blackboard_ws/src/rviz/rviz_rendering/src/rviz_rendering/mesh_loader.cpp:67[m[K:
+[01m[K/home/mpcmeulensteen/blackboard_ws/src/rviz/rviz_rendering/src/rviz_rendering/mesh_loader_helpers/assimp_loader.hpp:53:10:[m[K [01;31m[Kfatal error: [m[Kresource_retriever/retriever.hpp: No such file or directory
+   53 | #include [01;31m[K"resource_retriever/retriever.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rviz_rendering.dir/build.make:145: CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:344: CMakeFiles/rviz_rendering.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

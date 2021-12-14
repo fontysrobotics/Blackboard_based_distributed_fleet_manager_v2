@@ -1,0 +1,8 @@
+[01m[K/home/mpcmeulensteen/blackboard_ws/src/rviz/rviz_rendering/src/rviz_rendering/mesh_loader.cpp:65:10:[m[K [01;31m[Kfatal error: [m[Kresource_retriever/retriever.hpp: No such file or directory
+   65 | #include [01;31m[K"resource_retriever/retriever.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/rviz_rendering.dir/build.make:145: CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:344: CMakeFiles/rviz_rendering.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

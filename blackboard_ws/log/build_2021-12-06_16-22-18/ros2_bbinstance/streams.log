@@ -1,0 +1,24 @@
+[0.330s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_bbinstance': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/install.log --single-version-externally-managed
+[0.725s] running egg_info
+[0.730s] writing ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/PKG-INFO
+[0.732s] writing dependency_links to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/entry_points.txt
+[0.735s] writing requirements to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/requires.txt
+[0.736s] writing top-level names to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/top_level.txt
+[0.769s] reading manifest file '../../build/ros2_bbinstance/ros2_bbinstance.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../build/ros2_bbinstance/ros2_bbinstance.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.774s] running build_py
+[0.775s] copying ros2_bbinstance/gui.py -> /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build/lib/ros2_bbinstance
+[0.776s] running install
+[0.779s] running install_lib
+[0.780s] copying /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build/lib/ros2_bbinstance/gui.py -> /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance
+[0.781s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance/gui.py to gui.cpython-38.pyc
+[0.789s] running install_data
+[0.793s] running install_egg_info
+[0.796s] removing '/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance-0.0.0-py3.8.egg-info' (and everything under it)
+[0.797s] Copying ../../build/ros2_bbinstance/ros2_bbinstance.egg-info to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance-0.0.0-py3.8.egg-info
+[0.798s] running install_scripts
+[0.817s] Installing gui script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.819s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/install.log'
+[0.843s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_bbinstance' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/install.log --single-version-externally-managed
