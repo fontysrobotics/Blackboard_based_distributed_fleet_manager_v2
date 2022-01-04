@@ -9,6 +9,7 @@ setup.py
 ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/top_level.txt
 ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/zip-safe
 launch/blackboard.launch.py
+launch/rviz.launch.py
 resource/ros2_bbinstance
 ros2_bbinstance/__init__.py
 ros2_bbinstance/blackboardinstance.py
@@ -18,6 +19,7 @@ ros2_bbinstance/monitor.py
 ros2_bbinstance/robotInstance.py
 ros2_bbinstance/rviz_tools.py
 ros2_bbinstance/taskview.py
+ros2_bbinstance/taskviewHandler.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

@@ -4,6 +4,7 @@ from python_qt_binding import QtWidgets, QtCore, QtGui
 import rclpy
 
 from rclpy.node import Node
+
 from message_pkg.msg import TaskMsg, BBbackup
 
 from std_msgs.msg import String
@@ -11,22 +12,22 @@ from geometry_msgs.msg import Pose, PointStamped
 from threading import Lock
 
 class Talker(Node):
-    def __init__(self, nodeName):
-        self.nodeName = nodeName
-        super().__init__(self.nodeName)
-        self.pubNewTask = self.create_publisher(TaskMsg, 'newTask', 10)
-        self.pubRobotState = self.create_publisher(String, 'robotState', 10)
-
-        node = rclpy.create_node(nodeName, anonymous=False)
+    def __init__(self):
+        super().__init__("gui_pub")
+        self.pubNewTask = Node.create_publisher(self, TaskMsg, 'newTask', 1)
+        self.pubRobotState = Node.create_publisher(self, String, 'robotState', 1)
 
 
 
 class Ui_MainWindow(Node, object):
+    def __init__(self, nodeName):
+        super().__init__(nodeName)
+        
     def setupUi(self, MainWindow):
         self.lock = Lock()
-        self.talker = Talker('gui')
-        self.subBBbackup = self.create_subscription(BBbackup, 'bbBackup', self.backupFunction)
-        self.subClickedPoint = self.create_subscription(PointStamped, 'clicked_point', self.clickedPintRviz)
+        self.talker = Talker()
+        self.subBBbackup = self.create_subscription(BBbackup, 'bbBackup', self.backupFunction, 1)
+        self.subClickedPoint = self.create_subscription(PointStamped, 'clicked_point', self.clickedPintRviz, 1)
 
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(560, 440)
@@ -407,6 +408,7 @@ class Ui_MainWindow(Node, object):
 
 def main(args=None):
     import sys
+    rclpy.init(args=args)
     app = QtWidgets.QApplication(sys.argv)
     mainwindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow('gui')

@@ -23,7 +23,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/hussam/catkin_ws/src/simulation/simenv/worlds/aa(2).stl</uri>
+            <uri>/home/mpcmeulensteen/blackboard_ws/src/simulation/simenv/worlds/aa(2).stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -46,7 +46,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>home/hussam/catkin_ws/src/simulation/simenv/worlds/aa(2).stl</uri>
+            <uri>home/mpcmeulensteen/blackboard_ws/src/simulation/simenv/worlds/aa(2).stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

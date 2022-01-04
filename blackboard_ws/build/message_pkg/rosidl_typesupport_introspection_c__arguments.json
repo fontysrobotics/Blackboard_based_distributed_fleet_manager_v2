@@ -4,7 +4,7 @@
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg:msg/BBbackup.idl",
-    "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg:msg/BBsynch.idl",
+    "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg:msg/BBsync.idl",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg:msg/TaskCost.idl",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg:msg/TaskMsg.idl",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg:msg/TaskStateMsg.idl"
@@ -82,7 +82,7 @@
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/BBbackup.idl",
-    "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/BBsynch.idl",
+    "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/BBsync.idl",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/TaskCost.idl",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/TaskMsg.idl",
     "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/TaskStateMsg.idl",

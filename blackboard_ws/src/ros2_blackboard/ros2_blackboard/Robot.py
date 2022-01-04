@@ -160,7 +160,7 @@ class Robot(Node):
             self.taskCostLock.release()
         
     
-    def updateBlackoard(self, robotId, taskId, taskCost, energyCost):
+    def updateBlackboard(self, robotId, taskId, taskCost, energyCost):
         if self.updateLock.locked() is False:
             self.updateLock.acquire()
             tskCst = TaskCost()

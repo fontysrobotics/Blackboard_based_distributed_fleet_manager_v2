@@ -12,21 +12,21 @@ from geometry_msgs.msg import Pose, PointStamped
 from threading import Lock
 
 class Talker(Node):
-    def __init__(self, nodeName):
-        self.nodeName = nodeName
-        super().__init__(self.nodeName)
-        self.pubNewTask = self.create_publisher(TaskMsg, 'newTask', 10)
-        self.pubRobotState = self.create_publisher(String, 'robotState', 10)
-
-        rclpy.create_node(nodeName)
+    def __init__(self):
+        super().__init__("gui_pub")
+        self.pubNewTask = Node.create_publisher(self, TaskMsg, 'newTask', 1)
+        self.pubRobotState = Node.create_publisher(self, String, 'robotState', 1)
 
 
 
 class Ui_MainWindow(Node, object):
-
+    def __init__(self, nodeName):
+        self.nodeName = nodeName
+        super().__init__(self.nodeName)
+        
     def setupUi(self, MainWindow):
         self.lock = Lock()
-        self.talker = Talker('gui_pub')
+        self.talker = Talker()
         self.subBBbackup = self.create_subscription(BBbackup, 'bbBackup', self.backupFunction, 1)
         self.subClickedPoint = self.create_subscription(PointStamped, 'clicked_point', self.clickedPintRviz, 1)
 
@@ -331,8 +331,8 @@ class Ui_MainWindow(Node, object):
     def backupFunction(self,data):
         if self.lock.locked() is False:
             self.lock.acquire()
-            self.lblblackBoard.setText(data.bbAdress)
-            self.lblbackupBlackboard.setText(data.buAdress)
+            self.lblblackBoard.setText(data.bbadress)
+            self.lblbackupBlackboard.setText(data.buadress)
             self.lock.release()
 
     def addTaskFunction(self,event):
@@ -349,7 +349,7 @@ class Ui_MainWindow(Node, object):
             posea.position.z = self.az.value()
             posea.orientation.w = self.aw.value()
             posearray.append(posea)
-            tskmsg.taskType = 1
+            tskmsg.tasktype = 1
 
         if self.radioButton_2.isChecked():
             posearray = []
@@ -363,7 +363,7 @@ class Ui_MainWindow(Node, object):
             poseb.orientation.w = self.bw.value()
             posearray.append(posea)
             posearray.append(poseb)
-            tskmsg.taskType = 2
+            tskmsg.tasktype = 2
 
         if self.radioButton_3.isChecked():
             posearray = []
@@ -377,7 +377,7 @@ class Ui_MainWindow(Node, object):
             poseb.orientation.w = self.bw.value()
             posearray.append(posea)
             posearray.append(poseb)
-            tskmsg.taskType = 3
+            tskmsg.tasktype = 3
 
         if self.radioButton_4.isChecked():
             posearray = []
@@ -396,16 +396,17 @@ class Ui_MainWindow(Node, object):
             posearray.append(posea)
             posearray.append(poseb)
             posearray.append(posec)
-            tskmsg.taskType = 4
+            tskmsg.tasktype = 4
         
-        tskmsg.taskId = self.sBtaskid.value()
+        tskmsg.taskid = self.sBtaskid.value()
         tskmsg.priority = self.sbtaskPriority.value()
         tskmsg.payload = self.sbtaskPayload.value()
-        tskmsg.taskState = 1
+        tskmsg.taskstate = 1
         tskmsg.pose = posearray
         self.sBtaskid.setValue(self.sBtaskid.value()+1)
-        self.resetInterface()
         self.talker.pubNewTask.publish(tskmsg)
+        self.resetInterface()
+        
 
 def main(args=None):
     import sys
@@ -415,6 +416,7 @@ def main(args=None):
     ui = Ui_MainWindow('gui')
     ui.setupUi(mainwindow)
     mainwindow.show()
+    rclpy.spin_once(ui)
     sys.exit(app.exec_())
 
 if __name__ == "__main__":

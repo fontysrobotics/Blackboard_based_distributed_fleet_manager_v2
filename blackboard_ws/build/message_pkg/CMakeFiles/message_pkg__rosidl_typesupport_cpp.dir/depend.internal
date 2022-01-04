@@ -15,8 +15,8 @@ CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messag
  /opt/ros/foxy/include/rosidl_typesupport_cpp/visibility_control.h
  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
  rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__struct.hpp
-CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bsynch__type_support.cpp.o
- /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_cpp/message_pkg/msg/b_bsynch__type_support.cpp
+CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bsync__type_support.cpp.o
+ /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_cpp/message_pkg/msg/b_bsync__type_support.cpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp
  /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.hpp
@@ -31,7 +31,7 @@ CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messag
  /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support_dispatch.hpp
  /opt/ros/foxy/include/rosidl_typesupport_cpp/visibility_control.h
  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
- rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp
+ rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__struct.hpp
  rosidl_generator_cpp/message_pkg/msg/detail/task_msg__struct.hpp
 CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/task_cost__type_support.cpp.o
  /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_cpp/message_pkg/msg/task_cost__type_support.cpp

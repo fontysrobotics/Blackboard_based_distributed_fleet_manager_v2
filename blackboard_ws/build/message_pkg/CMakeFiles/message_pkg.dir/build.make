@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mpcmeulensteen/blackboard_ws/build/message_pkg
 include CMakeFiles/message_pkg.dir/progress.make
 
 CMakeFiles/message_pkg: /home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/BBbackup.msg
-CMakeFiles/message_pkg: /home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/BBsynch.msg
+CMakeFiles/message_pkg: /home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/BBsync.msg
 CMakeFiles/message_pkg: /home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/TaskCost.msg
 CMakeFiles/message_pkg: /home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/TaskMsg.msg
 CMakeFiles/message_pkg: /home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/TaskStateMsg.msg

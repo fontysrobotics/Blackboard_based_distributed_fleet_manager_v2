@@ -27,12 +27,12 @@ message_pkg/msg/detail/b_bbackup__struct.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bbackup__struct.h
 message_pkg/msg/detail/b_bbackup__functions.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bbackup__functions.h
-message_pkg/msg/detail/b_bsynch__type_support.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bsynch__type_support.h
-message_pkg/msg/detail/b_bsynch__struct.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bsynch__struct.h
-message_pkg/msg/detail/b_bsynch__functions.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bsynch__functions.h
+message_pkg/msg/detail/b_bsync__type_support.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bsync__type_support.h
+message_pkg/msg/detail/b_bsync__struct.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bsync__struct.h
+message_pkg/msg/detail/b_bsync__functions.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/b_bsync__functions.h
 message_pkg/msg/detail/task_cost__type_support.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/message_pkg/msg/detail/task_cost__type_support.h
 message_pkg/msg/detail/task_cost__struct.h
@@ -652,7 +652,7 @@ rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/rosidl_generator_c__vi
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h
 stdbool.h
 -
 stdlib.h
@@ -661,10 +661,10 @@ rosidl_runtime_c/visibility_control.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/visibility_control.h
 message_pkg/msg/rosidl_generator_c__visibility_control.h
 rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/rosidl_generator_c__visibility_control.h
-message_pkg/msg/detail/b_bsynch__struct.h
-rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__struct.h
+message_pkg/msg/detail/b_bsync__struct.h
+rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__struct.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
 stdbool.h
 -
 stddef.h
@@ -674,7 +674,7 @@ stdint.h
 message_pkg/msg/detail/task_msg__struct.h
 rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/task_msg__struct.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__type_support.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__type_support.h
 rosidl_typesupport_interface/macros.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_typesupport_interface/macros.h
 message_pkg/msg/rosidl_generator_c__visibility_control.h

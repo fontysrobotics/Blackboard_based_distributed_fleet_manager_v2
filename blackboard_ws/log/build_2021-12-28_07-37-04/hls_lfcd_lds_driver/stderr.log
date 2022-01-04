@@ -1,0 +1,2 @@
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hlds_laser_publisher.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,7 +1,7 @@
 msg/BBbackup.idl
 msg/BBbackup.msg
-msg/BBsynch.idl
-msg/BBsynch.msg
+msg/BBsync.idl
+msg/BBsync.msg
 msg/TaskCost.idl
 msg/TaskCost.msg
 msg/TaskMsg.idl

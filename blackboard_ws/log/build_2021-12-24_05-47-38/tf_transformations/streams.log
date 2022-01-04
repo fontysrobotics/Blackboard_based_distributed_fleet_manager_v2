@@ -1,0 +1,19 @@
+[0.466s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/tf_transformations': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/mpcmeulensteen/blackboard_ws/build/tf_transformations/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/tf_transformations --record /home/mpcmeulensteen/blackboard_ws/build/tf_transformations/install.log --single-version-externally-managed
+[0.831s] running egg_info
+[0.831s] writing ../../build/tf_transformations/tf_transformations.egg-info/PKG-INFO
+[0.832s] writing dependency_links to ../../build/tf_transformations/tf_transformations.egg-info/dependency_links.txt
+[0.832s] writing requirements to ../../build/tf_transformations/tf_transformations.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/tf_transformations/tf_transformations.egg-info/top_level.txt
+[0.919s] reading manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[0.924s] writing manifest file '../../build/tf_transformations/tf_transformations.egg-info/SOURCES.txt'
+[0.925s] running build
+[0.925s] running build_py
+[0.925s] running install
+[0.927s] running install_lib
+[0.931s] running install_data
+[0.933s] running install_egg_info
+[0.945s] removing '/home/mpcmeulensteen/blackboard_ws/install/tf_transformations/lib/python3.8/site-packages/tf_transformations-1.0.0-py3.8.egg-info' (and everything under it)
+[0.946s] Copying ../../build/tf_transformations/tf_transformations.egg-info to /home/mpcmeulensteen/blackboard_ws/install/tf_transformations/lib/python3.8/site-packages/tf_transformations-1.0.0-py3.8.egg-info
+[0.947s] running install_scripts
+[0.988s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/tf_transformations/install.log'
+[1.034s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/tf_transformations' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/tf_transformations/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_transformations build --build-base /home/mpcmeulensteen/blackboard_ws/build/tf_transformations/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/tf_transformations --record /home/mpcmeulensteen/blackboard_ws/build/tf_transformations/install.log --single-version-externally-managed

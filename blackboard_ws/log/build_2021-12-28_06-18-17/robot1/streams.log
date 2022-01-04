@@ -1,0 +1,20 @@
+[0.038s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/robot1 -- -j2 -l2
+[0.211s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/robot1 -- -j2 -l2
+[0.303s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/robot1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/robot1
+[0.339s] -- Install configuration: ""
+[0.340s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/ament_index/resource_index/package_run_dependencies/robot1
+[0.341s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/ament_index/resource_index/parent_prefix_path/robot1
+[0.341s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/environment/ament_prefix_path.sh
+[0.344s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/environment/ament_prefix_path.dsv
+[0.352s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/environment/path.sh
+[0.354s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/environment/path.dsv
+[0.354s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/local_setup.bash
+[0.355s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/local_setup.sh
+[0.355s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/local_setup.zsh
+[0.356s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/local_setup.dsv
+[0.358s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/package.dsv
+[0.359s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/ament_index/resource_index/packages/robot1
+[0.360s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/cmake/robot1Config.cmake
+[0.361s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/cmake/robot1Config-version.cmake
+[0.365s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/robot1/share/robot1/package.xml
+[0.416s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/robot1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/robot1

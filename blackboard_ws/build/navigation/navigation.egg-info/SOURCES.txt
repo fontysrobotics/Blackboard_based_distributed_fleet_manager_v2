@@ -8,6 +8,8 @@ setup.py
 ../../build/navigation/navigation.egg-info/requires.txt
 ../../build/navigation/navigation.egg-info/top_level.txt
 ../../build/navigation/navigation.egg-info/zip-safe
+launch/environment.launch.py
+launch/robot_state_publisher.launch.py
 navigation/__init__.py
 resource/navigation
 test/test_copyright.py

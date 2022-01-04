@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk_custom_interfaces -- -j2 -l2
+[0.078s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.087s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.115s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.127s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.156s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.159s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.199s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.225s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.232s] make[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces.dir/build.make:79: CMakeFiles/dynamixel_sdk_custom_interfaces.dir/depend] Interrupt
+[0.232s] make[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/dynamixel_sdk_custom_interfaces.dir/all] Interrupt
+[0.232s] make: *** [Makefile:141: all] Interrupt
+[0.238s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk_custom_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk_custom_interfaces -- -j2 -l2

@@ -26,15 +26,15 @@ rosidl_typesupport_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/rosidl_typesupport_interface/macros.h
 
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp
 cstddef
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/cstddef
 rosidl_runtime_c/message_type_support_struct.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/rosidl_runtime_c/message_type_support_struct.h
 message_pkg/msg/rosidl_typesupport_c__visibility_control.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/message_pkg/msg/rosidl_typesupport_c__visibility_control.h
-message_pkg/msg/detail/b_bsynch__struct.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/message_pkg/msg/detail/b_bsynch__struct.h
+message_pkg/msg/detail/b_bsync__struct.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/message_pkg/msg/detail/b_bsync__struct.h
 rosidl_typesupport_c/identifier.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/rosidl_typesupport_c/identifier.h
 rosidl_typesupport_c/message_type_support_dispatch.h
@@ -184,7 +184,7 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/string.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
 stdbool.h
 -
 stddef.h

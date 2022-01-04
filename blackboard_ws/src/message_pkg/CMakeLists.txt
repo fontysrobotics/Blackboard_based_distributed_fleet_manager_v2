@@ -26,7 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BBbackup.msg"
-  "msg/BBsynch.msg"
+  "msg/BBsync.msg"
   "msg/TaskCost.msg"
   "msg/TaskMsg.msg"
   "msg/TaskStateMsg.msg"

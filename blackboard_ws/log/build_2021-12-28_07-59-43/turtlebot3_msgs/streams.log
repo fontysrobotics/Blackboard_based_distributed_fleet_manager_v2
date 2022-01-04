@@ -1,0 +1,13 @@
+[0.021s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_msgs -- -j2 -l2
+[0.145s] [  2%] Built target turtlebot3_msgs__cpp
+[0.155s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.207s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.247s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.262s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.309s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.310s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.363s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.401s] [ 80%] Built target turtlebot3_msgs
+[0.444s] [ 81%] Built target turtlebot3_msgs__py
+[0.476s] make[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/turtlebot3_msgs__python.dir/all] Interrupt
+[0.476s] make: *** [Makefile:141: all] Interrupt

@@ -24,7 +24,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
-TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
+
 
 
 def generate_launch_description():
@@ -36,7 +36,7 @@ def generate_launch_description():
             'maps',
             'env.yaml'))
 
-    param_file_name = TURTLEBOT3_MODEL + '.yaml'
+    param_file_name = 'burger.yaml'
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(
@@ -74,7 +74,6 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time,
                 'params_file': param_dir}.items(),
         ),
-
         Node(
             package='rviz2',
             executable='rviz2',

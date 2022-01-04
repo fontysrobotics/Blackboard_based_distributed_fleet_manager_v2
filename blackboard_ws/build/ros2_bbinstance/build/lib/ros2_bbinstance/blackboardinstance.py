@@ -1,7 +1,7 @@
 #!/usr/bin python3
 import rclpy
 from ros2_blackboard.RosCommunication import Publisher
-from ros2_blackboard import Blackboard
+from ros2_blackboard.Blackboard import Blackboard
 
 def main(args=None):
     rclpy.init(args=args)

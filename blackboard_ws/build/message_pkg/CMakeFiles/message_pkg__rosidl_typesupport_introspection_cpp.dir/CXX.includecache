@@ -34,7 +34,7 @@ rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
 rosidl_typesupport_introspection_cpp/visibility_control.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
 
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/b_bsynch__type_support.cpp
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/b_bsync__type_support.cpp
 array
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/array
 cstddef
@@ -49,8 +49,8 @@ rosidl_typesupport_cpp/message_type_support.hpp
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
 rosidl_typesupport_interface/macros.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/rosidl_typesupport_interface/macros.h
-message_pkg/msg/detail/b_bsynch__struct.hpp
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__struct.hpp
+message_pkg/msg/detail/b_bsync__struct.hpp
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__struct.hpp
 rosidl_typesupport_introspection_cpp/field_types.hpp
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/rosidl_typesupport_introspection_cpp/field_types.hpp
 rosidl_typesupport_introspection_cpp/identifier.hpp
@@ -282,7 +282,7 @@ string
 vector
 -
 
-rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp
+rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp
 -
 rosidl_runtime_cpp/message_initialization.hpp

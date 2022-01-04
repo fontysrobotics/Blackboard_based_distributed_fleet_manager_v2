@@ -71,7 +71,7 @@ rosidl_generator_c/message_pkg/msg/b_bbackup.h: /opt/ros/foxy/share/rosidl_gener
 rosidl_generator_c/message_pkg/msg/b_bbackup.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/message_pkg/msg/b_bbackup.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/message_pkg/msg/b_bbackup.h: rosidl_adapter/message_pkg/msg/BBbackup.idl
-rosidl_generator_c/message_pkg/msg/b_bbackup.h: rosidl_adapter/message_pkg/msg/BBsynch.idl
+rosidl_generator_c/message_pkg/msg/b_bbackup.h: rosidl_adapter/message_pkg/msg/BBsync.idl
 rosidl_generator_c/message_pkg/msg/b_bbackup.h: rosidl_adapter/message_pkg/msg/TaskCost.idl
 rosidl_generator_c/message_pkg/msg/b_bbackup.h: rosidl_adapter/message_pkg/msg/TaskMsg.idl
 rosidl_generator_c/message_pkg/msg/b_bbackup.h: rosidl_adapter/message_pkg/msg/TaskStateMsg.idl
@@ -148,17 +148,17 @@ rosidl_generator_c/message_pkg/msg/detail/b_bbackup__struct.h: rosidl_generator_
 rosidl_generator_c/message_pkg/msg/detail/b_bbackup__type_support.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bbackup__type_support.h
 
-rosidl_generator_c/message_pkg/msg/b_bsynch.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/b_bsynch.h
+rosidl_generator_c/message_pkg/msg/b_bsync.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/b_bsync.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__type_support.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsynch__type_support.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__type_support.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsync__type_support.h
 
 rosidl_generator_c/message_pkg/msg/task_cost.h: rosidl_generator_c/message_pkg/msg/b_bbackup.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/task_cost.h
@@ -199,8 +199,8 @@ rosidl_generator_c/message_pkg/msg/detail/task_state_msg__type_support.h: rosidl
 rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c: rosidl_generator_c/message_pkg/msg/b_bbackup.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c: rosidl_generator_c/message_pkg/msg/b_bbackup.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c: rosidl_generator_c/message_pkg/msg/b_bbackup.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c
 
 rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c: rosidl_generator_c/message_pkg/msg/b_bbackup.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c
@@ -224,18 +224,18 @@ CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/ms
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c -o CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c.s
 
-CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o: CMakeFiles/message_pkg__rosidl_generator_c.dir/flags.make
-CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o: rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o   -c /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c
+CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o: CMakeFiles/message_pkg__rosidl_generator_c.dir/flags.make
+CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o: rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o   -c /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c
 
-CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c > CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.i
+CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c > CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.i
 
-CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c -o CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.s
+CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c -o CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.s
 
 CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c.o: CMakeFiles/message_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c.o: rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c
@@ -279,7 +279,7 @@ CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/ms
 # Object files for target message_pkg__rosidl_generator_c
 message_pkg__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c.o" \
-"CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o" \
+"CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o" \
 "CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c.o" \
 "CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_msg__functions.c.o" \
 "CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_state_msg__functions.c.o"
@@ -288,7 +288,7 @@ message_pkg__rosidl_generator_c_OBJECTS = \
 message_pkg__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmessage_pkg__rosidl_generator_c.so: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c.o
-libmessage_pkg__rosidl_generator_c.so: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o
+libmessage_pkg__rosidl_generator_c.so: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o
 libmessage_pkg__rosidl_generator_c.so: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c.o
 libmessage_pkg__rosidl_generator_c.so: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_msg__functions.c.o
 libmessage_pkg__rosidl_generator_c.so: CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_state_msg__functions.c.o
@@ -332,10 +332,10 @@ CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/messag
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bbackup__struct.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bbackup__type_support.h
-CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/b_bsynch.h
-CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h
-CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
-CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsynch__type_support.h
+CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/b_bsync.h
+CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h
+CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
+CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsync__type_support.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/task_cost.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_cost__struct.h
@@ -349,7 +349,7 @@ CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/messag
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_state_msg__struct.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_state_msg__type_support.h
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c
-CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c
+CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_msg__functions.c
 CMakeFiles/message_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/message_pkg/msg/detail/task_state_msg__functions.c

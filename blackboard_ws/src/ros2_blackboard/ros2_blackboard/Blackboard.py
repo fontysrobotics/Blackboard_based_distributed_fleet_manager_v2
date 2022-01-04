@@ -1,7 +1,7 @@
 from rclpy.node import Node
 from ros2_blackboard.Task import Task, TaskState
 from std_msgs.msg import String
-from message_pkg.msg import TaskMsg, TaskCost, TaskStateMsg, BBsynch, BBbackup
+from message_pkg.msg import TaskMsg, TaskCost, TaskStateMsg, BBsync, BBbackup
 
 
 class Blackboard(Node):
@@ -22,7 +22,7 @@ class Blackboard(Node):
             
 
             self.bbBackuptimer = self.create_timer(1, self.bbBackup)
-            self.syncTimer = self.create_timer(2, self.bbsynch)
+            self.syncTimer = self.create_timer(2, self.bbsync)
 
             print('new blackboard object created')
 
@@ -44,9 +44,10 @@ class Blackboard(Node):
 
 
     #self.syncTimer callback used to syncronize the current taskList with backup blackboard, and taskview
-    def bbsynch(self):
+    def bbsync(self):
+        print("test")
         syncarray = []
-        sync = BBsynch()
+        sync = BBsync()
         for task in self.taskList:
             tmsg = TaskMsg()
             tmsg.taskid = task.taskId
@@ -118,8 +119,10 @@ class Blackboard(Node):
     
 
     #Ros timer callback broadcasts current blackboard and backup adresses
-    def bbBackup(self, event=None):
+    def bbBackup(self):
+        print("test")
         bumsg = BBbackup()
         bumsg.bbadress = self.publisher.nodeName
         bumsg.buadress = self.buAdress
         self.publisher.pub_bbBackup.publish(bumsg)
+        

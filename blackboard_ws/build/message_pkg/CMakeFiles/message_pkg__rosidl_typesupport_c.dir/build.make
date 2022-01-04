@@ -64,7 +64,7 @@ rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: /opt/ros/foxy/
 rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
 rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: rosidl_adapter/message_pkg/msg/BBbackup.idl
-rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: rosidl_adapter/message_pkg/msg/BBsynch.idl
+rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: rosidl_adapter/message_pkg/msg/BBsync.idl
 rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: rosidl_adapter/message_pkg/msg/TaskCost.idl
 rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: rosidl_adapter/message_pkg/msg/TaskMsg.idl
 rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: rosidl_adapter/message_pkg/msg/TaskStateMsg.idl
@@ -132,8 +132,8 @@ rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp: /opt/ros/foxy/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
-rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp: rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp
+rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp: rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp
 
 rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp: rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp
@@ -157,18 +157,18 @@ CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pk
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp -o CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp.s
 
-CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.o: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/flags.make
-CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.o: rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.o -c /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp
+CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o: rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mpcmeulensteen/blackboard_ws/build/message_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o -c /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp
 
-CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp > CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.i
+CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp > CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.i
 
-CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp -o CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.s
+CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp -o CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.s
 
 CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp.o: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp.o: rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp
@@ -212,7 +212,7 @@ CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pk
 # Object files for target message_pkg__rosidl_typesupport_c
 message_pkg__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp.o" \
-"CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.o" \
+"CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o" \
 "CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp.o" \
 "CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_msg__type_support.cpp.o" \
 "CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_state_msg__type_support.cpp.o"
@@ -221,7 +221,7 @@ message_pkg__rosidl_typesupport_c_OBJECTS = \
 message_pkg__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libmessage_pkg__rosidl_typesupport_c.so: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp.o
-libmessage_pkg__rosidl_typesupport_c.so: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp.o
+libmessage_pkg__rosidl_typesupport_c.so: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o
 libmessage_pkg__rosidl_typesupport_c.so: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp.o
 libmessage_pkg__rosidl_typesupport_c.so: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_msg__type_support.cpp.o
 libmessage_pkg__rosidl_typesupport_c.so: CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_state_msg__type_support.cpp.o
@@ -262,7 +262,7 @@ CMakeFiles/message_pkg__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/message_pkg__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/message_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp
-CMakeFiles/message_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/message_pkg/msg/b_bsynch__type_support.cpp
+CMakeFiles/message_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp
 CMakeFiles/message_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp
 CMakeFiles/message_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/message_pkg/msg/task_msg__type_support.cpp
 CMakeFiles/message_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/message_pkg/msg/task_state_msg__type_support.cpp

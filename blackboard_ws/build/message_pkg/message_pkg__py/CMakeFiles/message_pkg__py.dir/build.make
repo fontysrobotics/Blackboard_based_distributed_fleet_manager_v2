@@ -57,13 +57,13 @@ message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/_mes
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_introspection_c.c
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_c.c
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bbackup.py
-message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsynch.py
+message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsync.py
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_cost.py
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_msg.py
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_state_msg.py
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/__init__.py
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bbackup_s.c
-message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsynch_s.c
+message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsync_s.c
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_cost_s.c
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_msg_s.c
 message_pkg__py/CMakeFiles/message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_state_msg_s.c
@@ -83,7 +83,7 @@ rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.
 rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_pkg/msg/BBbackup.idl
-rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_pkg/msg/BBsynch.idl
+rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_pkg/msg/BBsync.idl
 rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_pkg/msg/TaskCost.idl
 rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_pkg/msg/TaskMsg.idl
 rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/message_pkg/msg/TaskStateMsg.idl
@@ -160,8 +160,8 @@ rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_c.c: rosidl
 rosidl_generator_py/message_pkg/msg/_b_bbackup.py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_b_bbackup.py
 
-rosidl_generator_py/message_pkg/msg/_b_bsynch.py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_b_bsynch.py
+rosidl_generator_py/message_pkg/msg/_b_bsync.py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_b_bsync.py
 
 rosidl_generator_py/message_pkg/msg/_task_cost.py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_task_cost.py
@@ -178,8 +178,8 @@ rosidl_generator_py/message_pkg/msg/__init__.py: rosidl_generator_py/message_pkg
 rosidl_generator_py/message_pkg/msg/_b_bbackup_s.c: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_b_bbackup_s.c
 
-rosidl_generator_py/message_pkg/msg/_b_bsynch_s.c: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_b_bsynch_s.c
+rosidl_generator_py/message_pkg/msg/_b_bsync_s.c: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_b_bsync_s.c
 
 rosidl_generator_py/message_pkg/msg/_task_cost_s.c: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/message_pkg/msg/_task_cost_s.c
@@ -195,13 +195,13 @@ message_pkg__py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesu
 message_pkg__py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_introspection_c.c
 message_pkg__py: rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_c.c
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bbackup.py
-message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsynch.py
+message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsync.py
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_cost.py
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_msg.py
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_state_msg.py
 message_pkg__py: rosidl_generator_py/message_pkg/msg/__init__.py
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bbackup_s.c
-message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsynch_s.c
+message_pkg__py: rosidl_generator_py/message_pkg/msg/_b_bsync_s.c
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_cost_s.c
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_msg_s.c
 message_pkg__py: rosidl_generator_py/message_pkg/msg/_task_state_msg_s.c

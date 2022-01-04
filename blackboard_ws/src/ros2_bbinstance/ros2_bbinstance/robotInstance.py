@@ -15,7 +15,7 @@ def main(args=None):
 	bat = Battery(100,1000,100)
 	talker = Publisher('robot1_pub')
 	r = Robot('blackboard','robot1',1,1,1,1,5,10,10,bat,'robot1',talker)  
-	rclpy.spin()
+	#rclpy.spin()
 
 if __name__ == '__main__':
     main()

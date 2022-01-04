@@ -355,7 +355,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_pkg/msg" TYPE FILE FILES "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/BBsynch.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_pkg/msg" TYPE FILE FILES "/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_adapter/message_pkg/msg/BBsync.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -375,7 +375,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_pkg/msg" TYPE FILE FILES "/home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/BBsynch.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/message_pkg/msg" TYPE FILE FILES "/home/mpcmeulensteen/blackboard_ws/src/message_pkg/msg/BBsync.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

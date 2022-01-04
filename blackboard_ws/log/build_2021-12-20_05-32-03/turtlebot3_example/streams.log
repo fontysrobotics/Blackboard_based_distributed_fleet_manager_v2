@@ -1,0 +1,24 @@
+[0.259s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_example/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example --record /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[0.529s] running egg_info
+[0.531s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.544s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.544s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.544s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.544s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.619s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.624s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.625s] running build
+[0.625s] running build_py
+[0.630s] running install
+[0.631s] running install_lib
+[0.633s] running install_data
+[0.634s] running install_egg_info
+[0.636s] removing '/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.2-py3.8.egg-info' (and everything under it)
+[0.642s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.2-py3.8.egg-info
+[0.644s] running install_scripts
+[0.661s] Installing turtlebot3_obstacle_detection script to /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.662s] Installing turtlebot3_patrol_client script to /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.663s] Installing turtlebot3_patrol_server script to /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.663s] Installing turtlebot3_position_control script to /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.665s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_example/install.log'
+[0.692s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_example/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example --record /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_example/install.log --single-version-externally-managed

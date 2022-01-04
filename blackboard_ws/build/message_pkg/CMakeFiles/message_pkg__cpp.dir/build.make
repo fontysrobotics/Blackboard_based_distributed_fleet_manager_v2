@@ -57,10 +57,10 @@ CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
 CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__builder.hpp
 CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__struct.hpp
 CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__traits.hpp
-CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/b_bsynch.hpp
-CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__builder.hpp
-CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp
-CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__traits.hpp
+CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/b_bsync.hpp
+CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__builder.hpp
+CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__struct.hpp
+CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__traits.hpp
 CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/task_cost.hpp
 CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/task_cost__builder.hpp
 CMakeFiles/message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/task_cost__struct.hpp
@@ -91,7 +91,7 @@ rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: /opt/ros/foxy/share/rosidl_g
 rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: rosidl_adapter/message_pkg/msg/BBbackup.idl
-rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: rosidl_adapter/message_pkg/msg/BBsynch.idl
+rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: rosidl_adapter/message_pkg/msg/BBsync.idl
 rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: rosidl_adapter/message_pkg/msg/TaskCost.idl
 rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: rosidl_adapter/message_pkg/msg/TaskMsg.idl
 rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp: rosidl_adapter/message_pkg/msg/TaskStateMsg.idl
@@ -168,17 +168,17 @@ rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__struct.hpp: rosidl_genera
 rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__traits.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__traits.hpp
 
-rosidl_generator_cpp/message_pkg/msg/b_bsynch.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/b_bsynch.hpp
+rosidl_generator_cpp/message_pkg/msg/b_bsync.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/b_bsync.hpp
 
-rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__builder.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__builder.hpp
+rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__builder.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__builder.hpp
 
-rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp
+rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__struct.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__struct.hpp
 
-rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__traits.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__traits.hpp
+rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__traits.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__traits.hpp
 
 rosidl_generator_cpp/message_pkg/msg/task_cost.hpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/message_pkg/msg/task_cost.hpp
@@ -221,10 +221,10 @@ message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/b_bbackup.hpp
 message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__builder.hpp
 message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__struct.hpp
 message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bbackup__traits.hpp
-message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/b_bsynch.hpp
-message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__builder.hpp
-message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__struct.hpp
-message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsynch__traits.hpp
+message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/b_bsync.hpp
+message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__builder.hpp
+message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__struct.hpp
+message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/b_bsync__traits.hpp
 message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/task_cost.hpp
 message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/task_cost__builder.hpp
 message_pkg__cpp: rosidl_generator_cpp/message_pkg/msg/detail/task_cost__struct.hpp

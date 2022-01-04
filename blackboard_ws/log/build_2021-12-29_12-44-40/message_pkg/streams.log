@@ -1,0 +1,318 @@
+[0.026s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2
+[0.135s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.184s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.552s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.619s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.041s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.112s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.481s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.086s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.090s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.141s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.141s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.309s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.336s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.339s] -- Added test 'lint_cmake' to check CMake code style
+[2.341s] -- Added test 'xmllint' to check XML markup files
+[2.349s] -- Configuring done
+[2.500s] -- Generating done
+[2.512s] -- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/message_pkg
+[2.588s] [35m[1mScanning dependencies of target message_pkg__cpp[0m
+[2.589s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.634s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.071s] [  3%] Built target message_pkg__cpp
+[4.119s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.128s] [35m[1mScanning dependencies of target message_pkg__rosidl_generator_c[0m
+[4.174s] [  6%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.c.o[0m
+[4.513s] [  7%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c.o[0m
+[4.639s] [  9%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_cost__functions.c.o[0m
+[4.793s] [ 11%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_msg__functions.c.o[0m
+[4.848s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_cpp[0m
+[4.897s] [ 12%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bbackup__type_support.cpp.o[0m
+[4.923s] [ 14%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/task_state_msg__functions.c.o[0m
+[5.063s] [ 15%] [32m[1mLinking C shared library libmessage_pkg__rosidl_generator_c.so[0m
+[5.236s] [ 15%] Built target message_pkg__rosidl_generator_c
+[5.263s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.738s] [ 19%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bsync__type_support.cpp.o[0m
+[6.299s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_fastrtps_cpp[0m
+[6.345s] [ 20%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_pkg/msg/detail/dds_fastrtps/b_bbackup__type_support.cpp.o[0m
+[6.437s] [ 22%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/task_cost__type_support.cpp.o[0m
+[7.056s] [ 23%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/task_msg__type_support.cpp.o[0m
+[7.165s] [ 25%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_pkg/msg/detail/dds_fastrtps/b_bsync__type_support.cpp.o[0m
+[7.663s] [ 26%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/task_state_msg__type_support.cpp.o[0m
+[8.026s] [ 28%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_pkg/msg/detail/dds_fastrtps/task_cost__type_support.cpp.o[0m
+[8.233s] [ 30%] [32m[1mLinking CXX shared library libmessage_pkg__rosidl_typesupport_cpp.so[0m
+[8.363s] [ 30%] Built target message_pkg__rosidl_typesupport_cpp
+[8.400s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.760s] [ 33%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_pkg/msg/detail/dds_fastrtps/task_msg__type_support.cpp.o[0m
+[8.960s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_c[0m
+[8.995s] [ 34%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bbackup__type_support.cpp.o[0m
+[9.089s] [ 36%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/b_bsync__type_support.cpp.o[0m
+[9.156s] [ 38%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_cost__type_support.cpp.o[0m
+[9.232s] [ 39%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_msg__type_support.cpp.o[0m
+[9.308s] [ 41%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/message_pkg/msg/task_state_msg__type_support.cpp.o[0m
+[9.381s] [ 42%] [32m[1mLinking CXX shared library libmessage_pkg__rosidl_typesupport_c.so[0m
+[9.414s] [ 44%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message_pkg/msg/detail/dds_fastrtps/task_state_msg__type_support.cpp.o[0m
+[9.499s] [ 44%] Built target message_pkg__rosidl_typesupport_c
+[9.528s] [ 46%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.106s] [ 47%] [32m[1mLinking CXX shared library libmessage_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.211s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_introspection_cpp[0m
+[10.253s] [ 49%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/b_bbackup__type_support.cpp.o[0m
+[10.273s] [ 49%] Built target message_pkg__rosidl_typesupport_fastrtps_cpp
+[10.309s] [ 50%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.777s] [ 52%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/b_bsync__type_support.cpp.o[0m
+[11.004s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_introspection_c[0m
+[11.048s] [ 53%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_pkg/msg/detail/b_bbackup__type_support.c.o[0m
+[11.148s] [ 55%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_pkg/msg/detail/b_bsync__type_support.c.o[0m
+[11.236s] [ 57%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_pkg/msg/detail/task_cost__type_support.c.o[0m
+[11.259s] [ 58%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/task_cost__type_support.cpp.o[0m
+[11.309s] [ 60%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_pkg/msg/detail/task_msg__type_support.c.o[0m
+[11.407s] [ 61%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message_pkg/msg/detail/task_state_msg__type_support.c.o[0m
+[11.488s] [ 63%] [32m[1mLinking C shared library libmessage_pkg__rosidl_typesupport_introspection_c.so[0m
+[11.567s] [ 63%] Built target message_pkg__rosidl_typesupport_introspection_c
+[11.597s] [ 65%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/task_msg__type_support.cpp.o[0m
+[11.648s] [ 66%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message_pkg/msg/detail/task_state_msg__type_support.cpp.o[0m
+[12.098s] [ 68%] [32m[1mLinking CXX shared library libmessage_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[12.110s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.269s] [ 69%] Built target message_pkg__rosidl_typesupport_introspection_cpp
+[12.539s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_fastrtps_c[0m
+[12.562s] [ 71%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_pkg/msg/detail/b_bbackup__type_support_c.cpp.o[0m
+[12.566s] [ 73%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_pkg/msg/detail/b_bsync__type_support_c.cpp.o[0m
+[13.152s] [ 74%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_pkg/msg/detail/task_cost__type_support_c.cpp.o[0m
+[13.177s] [ 76%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_pkg/msg/detail/task_msg__type_support_c.cpp.o[0m
+[13.783s] [ 77%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message_pkg/msg/detail/task_state_msg__type_support_c.cpp.o[0m
+[14.094s] [ 79%] [32m[1mLinking CXX shared library libmessage_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[14.174s] [ 79%] Built target message_pkg__rosidl_typesupport_fastrtps_c
+[14.196s] [ 79%] Built target message_pkg
+[14.209s] [35m[1mScanning dependencies of target message_pkg__py[0m
+[14.229s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.982s] [ 80%] Built target message_pkg__py
+[14.994s] [35m[1mScanning dependencies of target message_pkg__python[0m
+[15.016s] [ 82%] [32mBuilding C object CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_b_bsync_s.c.o[0m
+[15.049s] [ 84%] [32mBuilding C object CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_b_bbackup_s.c.o[0m
+[15.197s] [ 85%] [32mBuilding C object CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_task_cost_s.c.o[0m
+[15.223s] [ 87%] [32mBuilding C object CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_task_msg_s.c.o[0m
+[15.388s] [ 88%] [32mBuilding C object CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_task_state_msg_s.c.o[0m
+[15.485s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/message_pkg/libmessage_pkg__python.so[0m
+[15.530s] [ 90%] Built target message_pkg__python
+[15.552s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_introspection_c__pyext[0m
+[15.553s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.586s] [ 92%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.613s] [ 93%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.720s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/message_pkg/message_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.781s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/message_pkg/message_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.797s] [ 96%] Built target message_pkg__rosidl_typesupport_introspection_c__pyext
+[15.809s] [35m[1mScanning dependencies of target message_pkg__rosidl_typesupport_c__pyext[0m
+[15.860s] [ 98%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message_pkg/_message_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[15.908s] [ 98%] Built target message_pkg__rosidl_typesupport_fastrtps_c__pyext
+[15.960s] [100%] [32m[1mLinking C shared library rosidl_generator_py/message_pkg/message_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[15.995s] [100%] Built target message_pkg__rosidl_typesupport_c__pyext
+[16.009s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/message_pkg -- -j2 -l2
+[16.137s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/message_pkg
+[16.148s] -- Install configuration: ""
+[16.148s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/rosidl_interfaces/message_pkg
+[16.149s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[16.149s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[16.150s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_generator_c__visibility_control.h
+[16.150s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bsynch.h
+[16.150s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_msg.h
+[16.151s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bbackup.h
+[16.151s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_cost.h
+[16.152s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[16.152s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__functions.h
+[16.152s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__struct.h
+[16.152s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__functions.c
+[16.153s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__functions.h
+[16.153s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__functions.c
+[16.153s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__functions.c
+[16.154s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__functions.h
+[16.154s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__type_support.h
+[16.154s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__type_support.h
+[16.154s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__type_support.h
+[16.155s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__struct.h
+[16.155s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__type_support.h
+[16.155s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__functions.h
+[16.156s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__struct.h
+[16.156s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__type_support.h
+[16.156s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__functions.c
+[16.156s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__struct.h
+[16.157s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__type_support.h
+[16.157s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__struct.h
+[16.158s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__functions.c
+[16.158s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__functions.h
+[16.158s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__struct.h
+[16.159s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__functions.c
+[16.159s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__functions.h
+[16.159s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bsync.h
+[16.159s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_state_msg.h
+[16.160s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/library_path.sh
+[16.160s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/library_path.dsv
+[16.160s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_generator_c.so
+[16.161s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_generator_c.so" to ""
+[16.161s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[16.161s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[16.162s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[16.162s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_fastrtps_c.h
+[16.162s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__rosidl_typesupport_fastrtps_c.h
+[16.162s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_fastrtps_c.h
+[16.163s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_fastrtps_c.h
+[16.163s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_fastrtps_c.h
+[16.163s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_fastrtps_c.h
+[16.164s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.164s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_fastrtps_c.so
+[16.165s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[16.165s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[16.165s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[16.165s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[16.166s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_fastrtps_cpp.hpp
+[16.166s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[16.166s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_fastrtps_cpp.hpp
+[16.166s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/dds_fastrtps
+[16.168s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_fastrtps_cpp.hpp
+[16.168s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__rosidl_typesupport_fastrtps_cpp.hpp
+[16.169s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[16.169s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.169s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_fastrtps_cpp.so
+[16.170s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.170s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[16.171s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[16.171s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.171s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[16.171s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__rosidl_typesupport_introspection_c.h
+[16.172s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_introspection_c.h
+[16.172s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_introspection_c.h
+[16.172s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_c.h
+[16.173s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__type_support.c
+[16.173s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__type_support.c
+[16.173s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_introspection_c.h
+[16.174s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__type_support.c
+[16.174s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__type_support.c
+[16.174s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__type_support.c
+[16.174s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__type_support.c
+[16.175s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_introspection_c.h
+[16.175s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_introspection_c.so
+[16.176s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_introspection_c.so" to ""
+[16.176s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_c.so
+[16.177s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_c.so" to ""
+[16.177s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[16.177s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[16.177s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_cost.hpp
+[16.178s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bsynch.hpp
+[16.178s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[16.178s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__builder.hpp
+[16.178s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__traits.hpp
+[16.179s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__traits.hpp
+[16.179s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__builder.hpp
+[16.179s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__builder.hpp
+[16.180s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__struct.hpp
+[16.180s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__traits.hpp
+[16.180s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__struct.hpp
+[16.180s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__traits.hpp
+[16.181s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__builder.hpp
+[16.181s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__struct.hpp
+[16.181s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__struct.hpp
+[16.182s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__struct.hpp
+[16.182s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__struct.hpp
+[16.182s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__traits.hpp
+[16.183s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__builder.hpp
+[16.183s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__traits.hpp
+[16.183s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__builder.hpp
+[16.183s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bsync.hpp
+[16.184s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_state_msg.hpp
+[16.184s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/b_bbackup.hpp
+[16.184s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/task_msg.hpp
+[16.185s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg
+[16.185s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg
+[16.185s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail
+[16.186s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__rosidl_typesupport_introspection_cpp.hpp
+[16.186s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__type_support.cpp
+[16.186s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_cpp.hpp
+[16.186s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_state_msg__type_support.cpp
+[16.187s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__type_support.cpp
+[16.187s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__type_support.cpp
+[16.187s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__rosidl_typesupport_introspection_cpp.hpp
+[16.188s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bsync__rosidl_typesupport_introspection_cpp.hpp
+[16.188s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_msg__type_support.cpp
+[16.188s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__rosidl_typesupport_introspection_cpp.hpp
+[16.189s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/task_cost__type_support.cpp
+[16.189s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/include/message_pkg/msg/detail/b_bbackup__rosidl_typesupport_introspection_cpp.hpp
+[16.189s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_introspection_cpp.so
+[16.190s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[16.191s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_cpp.so
+[16.191s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__rosidl_typesupport_cpp.so" to ""
+[16.191s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/pythonpath.sh
+[16.192s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/pythonpath.dsv
+[16.192s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/__init__.py
+[16.224s] Compiling '/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/__init__.py'...
+[16.229s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg
+[16.230s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bbackup.py
+[16.231s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_cost.py
+[16.231s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_state_msg.py
+[16.231s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bsync_s.c
+[16.232s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bsynch.py
+[16.232s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bsync.py
+[16.233s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_cost_s.c
+[16.233s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_msg_s.c
+[16.234s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/__init__.py
+[16.234s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bbackup_s.c
+[16.234s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_b_bsynch_s.c
+[16.235s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_state_msg_s.c
+[16.235s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/msg/_task_msg.py
+[16.235s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[16.236s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.237s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[16.237s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.238s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[16.238s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/python3.8/site-packages/message_pkg/message_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[16.239s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__python.so
+[16.239s] -- Set runtime path of "/home/mpcmeulensteen/blackboard_ws/install/message_pkg/lib/libmessage_pkg__python.so" to ""
+[16.240s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBbackup.idl
+[16.240s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBsync.idl
+[16.240s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskCost.idl
+[16.240s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskMsg.idl
+[16.241s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskStateMsg.idl
+[16.241s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBbackup.msg
+[16.241s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/BBsync.msg
+[16.242s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskCost.msg
+[16.245s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskMsg.msg
+[16.245s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/msg/TaskStateMsg.msg
+[16.245s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/package_run_dependencies/message_pkg
+[16.246s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/parent_prefix_path/message_pkg
+[16.246s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/ament_prefix_path.sh
+[16.246s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/ament_prefix_path.dsv
+[16.247s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/path.sh
+[16.247s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/environment/path.dsv
+[16.249s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.bash
+[16.249s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.sh
+[16.250s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.zsh
+[16.250s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/local_setup.dsv
+[16.250s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/package.dsv
+[16.251s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/ament_index/resource_index/packages/message_pkg
+[16.251s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_generator_cExport.cmake
+[16.251s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_generator_cExport-noconfig.cmake
+[16.252s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cExport.cmake
+[16.252s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.253s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cExport.cmake
+[16.253s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[16.253s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_generator_cppExport.cmake
+[16.254s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[16.254s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.254s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cppExport.cmake
+[16.255s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[16.255s] -- Installing: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/rosidl_cmake-extras.cmake
+[16.256s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.256s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[16.256s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[16.256s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.257s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.257s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.257s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkgConfig.cmake
+[16.259s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/cmake/message_pkgConfig-version.cmake
+[16.259s] -- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/message_pkg/share/message_pkg/package.xml
+[16.273s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/build/message_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --install /home/mpcmeulensteen/blackboard_ws/build/message_pkg

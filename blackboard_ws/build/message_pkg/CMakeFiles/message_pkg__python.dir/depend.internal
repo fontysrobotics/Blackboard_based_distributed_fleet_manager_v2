@@ -109,8 +109,8 @@ CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_b_bbacku
  rosidl_generator_c/message_pkg/msg/detail/b_bbackup__functions.h
  rosidl_generator_c/message_pkg/msg/detail/b_bbackup__struct.h
  rosidl_generator_c/message_pkg/msg/rosidl_generator_c__visibility_control.h
-CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_b_bsynch_s.c.o
- /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/msg/_b_bsynch_s.c
+CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_b_bsync_s.c.o
+ /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_py/message_pkg/msg/_b_bsync_s.c
  /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
  /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.h
  /opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.h
@@ -216,8 +216,8 @@ CMakeFiles/message_pkg__python.dir/rosidl_generator_py/message_pkg/msg/_b_bsynch
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
- rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h
- rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
+ rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h
+ rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
  rosidl_generator_c/message_pkg/msg/detail/task_msg__functions.h
  rosidl_generator_c/message_pkg/msg/detail/task_msg__struct.h
  rosidl_generator_c/message_pkg/msg/rosidl_generator_c__visibility_control.h

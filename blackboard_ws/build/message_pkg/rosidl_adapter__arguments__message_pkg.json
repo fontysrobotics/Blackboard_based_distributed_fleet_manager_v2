@@ -2,7 +2,7 @@
   "package_name": "message_pkg",
   "non_idl_tuples": [
     "/home/mpcmeulensteen/blackboard_ws/src/message_pkg:msg/BBbackup.msg",
-    "/home/mpcmeulensteen/blackboard_ws/src/message_pkg:msg/BBsynch.msg",
+    "/home/mpcmeulensteen/blackboard_ws/src/message_pkg:msg/BBsync.msg",
     "/home/mpcmeulensteen/blackboard_ws/src/message_pkg:msg/TaskCost.msg",
     "/home/mpcmeulensteen/blackboard_ws/src/message_pkg:msg/TaskMsg.msg",
     "/home/mpcmeulensteen/blackboard_ws/src/message_pkg:msg/TaskStateMsg.msg"

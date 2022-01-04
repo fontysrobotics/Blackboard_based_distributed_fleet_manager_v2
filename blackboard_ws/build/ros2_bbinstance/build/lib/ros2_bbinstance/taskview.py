@@ -1,30 +1,42 @@
 #!/usr/bin python3
 
 from python_qt_binding import QtWidgets, QtCore
-
-import rclpy
-from message_pkg.msg import BBsynch
+import sys
+import rclpy 
+from message_pkg.msg import BBsync
 from rclpy.node import Node
-from ros2_blackboard.Task import Task
+from ros2_blackboard.Task import Task, TaskState
 from threading import Lock
 from ros2_bbinstance.rviz_tools import RvizMarkers
 
-class Talker(Node):
-    def __init__(self, nodeName):
-        self.nodeName = nodeName
-        super().__init__(self.nodeName)
-        self.pubNewTask = Node.create_publisher(self, BBsynch, 'BbSync', 1)
+class Ui_handler(Node):
+    def __init__(self, ui):
+        super().__init__("taskview_sub")
+        self.ui = ui
+        self.create_subscription(BBsync, 'bbSync', self.handleData, 1)
+
+    def handleData(self, data):
+        self.ui.taskview(data)
+
 
 class Ui_MainWindow(Node, object):
-    def setupUi(self, MainWindow):
+    def __init__(self, nodeName):
+        self.nodeName = nodeName
+        mainwindow = QtWidgets.QMainWindow()     
+        self.MainWindow = mainwindow
+        super().__init__(self.nodeName)
+        
+        self.setupUi()
+        self.MainWindow.show()
+        #self.create_timer(2, self.viewTasks)
+
+        
+
+    def setupUi(self):
         self.lock = Lock()
-        self.talker = Talker('taskview_pub')
-        self.create_subscription(BBsynch, 'BbSync', self.taskview, 1)
-
-
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 600)
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.MainWindow.setObjectName("MainWindow")
+        self.MainWindow.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(self.MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.listView = QtWidgets.QListWidget(self.centralwidget)
         self.listView.setGeometry(QtCore.QRect(10, 40, 771, 521))
@@ -34,28 +46,31 @@ class Ui_MainWindow(Node, object):
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(10, 10, 67, 17))
         self.label.setObjectName("label")
-        MainWindow.setCentralWidget(self.centralwidget)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(self.MainWindow)
         self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
+        self.MainWindow.setStatusBar(self.statusbar)
+        
 
-        self.retranslateUi(MainWindow)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.retranslateUi()
+        QtCore.QMetaObject.connectSlotsByName(self.MainWindow)
         self.tasklist = []
         self.markers = RvizMarkers('/map','/markers')
+       
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Task View"))
+        self.MainWindow.setWindowTitle(_translate("MainWindow", "Task View"))
         self.label.setText(_translate("MainWindow", "Tasks"))
 
     def taskview(self, data):
         self.tasklist = []
+        print(data)
         for taskmsg in data.tasks:
-            task = Task(taskmsg.taskId, taskmsg.priority, taskmsg.taskType, taskmsg.pose, taskmsg.payload)
-            task.robotId = taskmsg.robotId
+            task = Task(taskmsg.taskid, taskmsg.priority, taskmsg.tasktype, taskmsg.pose, taskmsg.payload)
+            task.robotid = taskmsg.robotid
             task.cost = taskmsg.cost
-            task.taskState = taskmsg.taskState
+            task.taskstate = taskmsg.taskstate
             self.tasklist.append(task)
         self.createMarkers()
         self.viewTasks()
@@ -68,15 +83,15 @@ class Ui_MainWindow(Node, object):
     
     def taskToString(self, tsk):
         stt = ''
-        if tsk.taskState == 0:
+        if tsk.taskState == TaskState.Waitting:
             stt = 'Waitting'
-        elif tsk.taskState == 1:
+        elif tsk.taskState == TaskState.Started:
             stt = 'Started'
-        elif tsk.taskState == 2:
+        elif tsk.taskState == TaskState.Done:
             stt = 'Done'
-        elif tsk.taskState == 3:
+        elif tsk.taskState == TaskState.Assigned:
             stt = 'Assigned'
-        strng = 'TaskId: '+ str(tsk.taskId) + '  |  Priority: ' +str(tsk.priority) + '  |  State: '+ stt+ '  |  RobotId: '+ str(tsk.robotId)
+        strng = 'TaskId: '+ str(tsk.taskId) + '  |  Priority: ' +str(tsk.priority) + '  |  State: '+ stt + '  |  RobotId: '+ str(tsk.robotId)
         return strng
     
     def createMarkers(self):
@@ -84,16 +99,16 @@ class Ui_MainWindow(Node, object):
         stepCounter = 0
 
         for t in self.tasklist:
-            if t.taskState != 2:
+            if t.taskstate != 2:
                 finalStep = 0
                 length = len(t.pose)
                 for po in t.pose:
                     finalStep = finalStep + 1
                     markerpose = po
-                    markerpose.orientation.x = 1
-                    markerpose.orientation.y = 0
-                    markerpose.orientation.z = -1
-                    markerpose.orientation.w = 0
+                    markerpose.orientation.x = 1.0
+                    markerpose.orientation.y = 0.0
+                    markerpose.orientation.z = -1.0
+                    markerpose.orientation.w = 0.0
                     markerpose.position.z = 0.5
                     scale = 0.5
                     id = t.taskId+stepCounter
@@ -109,20 +124,23 @@ class Ui_MainWindow(Node, object):
                     if finalStep == length:
                         markerpose.position.z = 1.0
                         scale = 1.0
-                    self.markers.publishArrow(markerpose,color,scale,100)
+                    self.markers.publishArrow(markerpose,color,scale,lifetime=100)
                     stepCounter = stepCounter+1
         
 
 def main(args=None):
-    import sys
+    
     rclpy.init(args=args)
     app = QtWidgets.QApplication(sys.argv)
-    mainwindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow('taskview')
-    ui.setupUi(mainwindow)
-    mainwindow.show()
+    ui = Ui_MainWindow("taskview")
+    handler = Ui_handler(ui)
+    
+    rclpy.spin(handler)
     sys.exit(app.exec_())
-
+    
+    
 if __name__ == "__main__":
     main()
+    
+    
 

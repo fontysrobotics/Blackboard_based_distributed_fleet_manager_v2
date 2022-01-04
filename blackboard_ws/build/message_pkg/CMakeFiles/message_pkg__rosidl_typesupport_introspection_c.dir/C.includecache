@@ -26,11 +26,11 @@ message_pkg/msg/detail/b_bbackup__struct.h
 rosidl_runtime_c/string_functions.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/rosidl_runtime_c/string_functions.h
 
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/b_bsynch__type_support.c
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/b_bsync__type_support.c
 stddef.h
 -
-message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_c.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_c.h
+message_pkg/msg/detail/b_bsync__rosidl_typesupport_introspection_c.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__rosidl_typesupport_introspection_c.h
 message_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
 rosidl_typesupport_introspection_c/field_types.h
@@ -39,10 +39,10 @@ rosidl_typesupport_introspection_c/identifier.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/rosidl_typesupport_introspection_c/identifier.h
 rosidl_typesupport_introspection_c/message_introspection.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/rosidl_typesupport_introspection_c/message_introspection.h
-message_pkg/msg/detail/b_bsynch__functions.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__functions.h
-message_pkg/msg/detail/b_bsynch__struct.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__struct.h
+message_pkg/msg/detail/b_bsync__functions.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__functions.h
+message_pkg/msg/detail/b_bsync__struct.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__struct.h
 message_pkg/msg/task_msg.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/task_msg.h
 message_pkg/msg/detail/task_msg__rosidl_typesupport_introspection_c.h
@@ -254,7 +254,7 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/string.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h
 stdbool.h
 -
 stdlib.h
@@ -263,10 +263,10 @@ rosidl_runtime_c/visibility_control.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/visibility_control.h
 message_pkg/msg/rosidl_generator_c__visibility_control.h
 rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/rosidl_generator_c__visibility_control.h
-message_pkg/msg/detail/b_bsynch__struct.h
-rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__struct.h
+message_pkg/msg/detail/b_bsync__struct.h
+rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__struct.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
 stdbool.h
 -
 stddef.h
@@ -364,7 +364,7 @@ rosidl_typesupport_introspection_c/message_pkg/msg/detail/rosidl_typesupport_int
 message_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
 rosidl_typesupport_introspection_c/message_pkg/msg/detail/message_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
 
-rosidl_typesupport_introspection_c/message_pkg/msg/detail/b_bsynch__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/message_pkg/msg/detail/b_bsync__rosidl_typesupport_introspection_c.h
 rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_introspection_c/message_pkg/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_interface/macros.h

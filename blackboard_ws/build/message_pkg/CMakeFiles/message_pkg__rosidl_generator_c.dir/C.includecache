@@ -20,9 +20,9 @@ string.h
 rosidl_runtime_c/string_functions.h
 /home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/string_functions.h
 
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c
-message_pkg/msg/detail/b_bsynch__functions.h
-/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__functions.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.c
+message_pkg/msg/detail/b_bsync__functions.h
+/home/mpcmeulensteen/blackboard_ws/build/message_pkg/rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__functions.h
 assert.h
 -
 stdbool.h
@@ -160,7 +160,7 @@ stdint.h
 rosidl_runtime_c/string.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/string.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__functions.h
 stdbool.h
 -
 stdlib.h
@@ -169,10 +169,10 @@ rosidl_runtime_c/visibility_control.h
 rosidl_generator_c/message_pkg/msg/detail/rosidl_runtime_c/visibility_control.h
 message_pkg/msg/rosidl_generator_c__visibility_control.h
 rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/rosidl_generator_c__visibility_control.h
-message_pkg/msg/detail/b_bsynch__struct.h
-rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsynch__struct.h
+message_pkg/msg/detail/b_bsync__struct.h
+rosidl_generator_c/message_pkg/msg/detail/message_pkg/msg/detail/b_bsync__struct.h
 
-rosidl_generator_c/message_pkg/msg/detail/b_bsynch__struct.h
+rosidl_generator_c/message_pkg/msg/detail/b_bsync__struct.h
 stdbool.h
 -
 stddef.h
