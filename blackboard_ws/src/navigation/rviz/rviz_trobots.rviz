@@ -56,7 +56,12 @@ Visualization Manager:
       Draw Behind: false
       Enabled: true
       Name: Map
-      Topic: /move_base2/global_costmap/costmap
+      Topic: 
+        Depth: 5
+        Durability Policy: transient local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /move_base2/global_costmap/costmap
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -66,7 +71,12 @@ Visualization Manager:
       Draw Behind: false
       Enabled: true
       Name: Map
-      Topic: /move_base1/global_costmap/costmap
+      Topic: 
+        Depth: 5
+        Durability Policy: transient local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /move_base1/global_costmap/costmap
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -88,7 +98,7 @@ Visualization Manager:
       Value: true
     - Class: rviz_default_plugins/Marker
       Enabled: true
-      Marker Topic: /markers
+      Topic: /markers
       Name: Marker
       Namespaces:
         {}
@@ -149,7 +159,7 @@ Visualization Manager:
       Near Clip Distance: 0.009999999776482582
       Scale: 52.40496826171875
       Target Frame: <Fixed Frame>
-      Value: TopDownOrtho (rviz)
+      Value: TopDownOrtho (rviz_default_plugins)
       X: 2.0972464084625244
       Y: 4.367456912994385
     Saved: ~

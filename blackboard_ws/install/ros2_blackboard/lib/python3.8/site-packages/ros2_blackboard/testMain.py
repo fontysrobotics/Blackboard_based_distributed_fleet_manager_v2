@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 #from message_pkg.msg import BBbackup, BBsynch, TaskCost, TaskMsg, TaskStateMsg
 from std_msgs.msg import String
-from ros2_blackboard.RosCommunication import Publisher 
+from ros2_blackboard.RosCommunication import NodePublisher 
 from ros2_blackboard.Battery import Battery
 from ros2_blackboard.Robot import Robot
 from ros2_blackboard.Blackboard import Blackboard
@@ -12,7 +12,7 @@ def main(args=None):
 	#testing blackboard.py and RosComunicate.py
 
 	rclpy.init(args=args)
-	publisher = Publisher('pubBlackboard')
+	publisher = NodePublisher('pubBlackboard')
 	bb = Blackboard(1,publisher)
 	rclpy.spin(bb)
 	

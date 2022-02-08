@@ -1,0 +1,30 @@
+[0.321s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_bbinstance': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/install.log --single-version-externally-managed
+[0.725s] running egg_info
+[0.725s] writing ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/PKG-INFO
+[0.733s] writing dependency_links to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/dependency_links.txt
+[0.733s] writing entry points to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/entry_points.txt
+[0.733s] writing requirements to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/requires.txt
+[0.733s] writing top-level names to ../../build/ros2_bbinstance/ros2_bbinstance.egg-info/top_level.txt
+[0.797s] reading manifest file '../../build/ros2_bbinstance/ros2_bbinstance.egg-info/SOURCES.txt'
+[0.801s] writing manifest file '../../build/ros2_bbinstance/ros2_bbinstance.egg-info/SOURCES.txt'
+[0.802s] running build
+[0.802s] running build_py
+[0.802s] copying ros2_bbinstance/robotInstance.py -> /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build/lib/ros2_bbinstance
+[0.803s] running install
+[0.803s] running install_lib
+[0.804s] copying /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build/lib/ros2_bbinstance/robotInstance.py -> /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance
+[0.808s] byte-compiling /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance/robotInstance.py to robotInstance.cpython-38.pyc
+[0.813s] running install_data
+[0.814s] running install_egg_info
+[0.815s] removing '/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance-0.0.0-py3.8.egg-info' (and everything under it)
+[0.818s] Copying ../../build/ros2_bbinstance/ros2_bbinstance.egg-info to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages/ros2_bbinstance-0.0.0-py3.8.egg-info
+[0.818s] running install_scripts
+[0.857s] Installing blackboardinstance script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.858s] Installing gui script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.858s] Installing robotInstance script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.858s] Installing robotInstance2 script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.859s] Installing robotInstance3 script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.859s] Installing robotInstance4 script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.859s] Installing taskview script to /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/ros2_bbinstance
+[0.859s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/install.log'
+[0.898s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/ros2_bbinstance' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_bbinstance build --build-base /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance --record /home/mpcmeulensteen/blackboard_ws/build/ros2_bbinstance/install.log --single-version-externally-managed

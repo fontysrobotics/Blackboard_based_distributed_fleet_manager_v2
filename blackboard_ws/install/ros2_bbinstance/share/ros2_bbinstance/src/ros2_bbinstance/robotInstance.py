@@ -3,20 +3,20 @@
 import rclpy
 from rclpy.node import Node
 
-import blackboard
-from blackboard.Robot import Robot
-from blackboard.RosCommunication import Talker
-from blackboard.Blackboard import Blackboard
-from blackboard.Battery import Battery
+import ros2_blackboard
+from ros2_blackboard.Robot import Robot
+from ros2_blackboard.RosCommunication import NodePublisher
+from ros2_blackboard.Blackboard import Blackboard
+from ros2_blackboard.Battery import Battery
 
 
 def main(args=None):
 	rclpy.init(args=args)
-	node = Node('robotInstance')
 	bat = Battery(100,1000,100)
-	talker = Talker('robot1')
+	talker = NodePublisher('robot1_pub')
 	r = Robot('blackboard','robot1',1,1,1,1,5,10,10,bat,'robot1',talker)  
-	rclpy.spin()
+	print('robotInstance ready')
+	rclpy.spin_once(r)
 
 if __name__ == '__main__':
     main()

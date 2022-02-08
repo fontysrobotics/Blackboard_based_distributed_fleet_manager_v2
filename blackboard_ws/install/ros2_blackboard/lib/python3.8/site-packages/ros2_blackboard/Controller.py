@@ -13,9 +13,10 @@ class MoveBaseCommand(Node):
             self, MoveBase, moveBaseTopic)
         self.client.wait_for_server()
         self.state = 0
+        
     
     def sendGoal(self, goal):
-        movebasegoal = PoseStamped()
+        movebasegoal = MoveBase.Goal()
         movebasegoal.goal_pose.header.frame_id = "map"
         movebasegoal.goal_pose.header.stamp = self.get_clock().now()    #time stamp, moment of sending the goal
         movebasegoal.goal_pose.pose.position.x = goal.position.x

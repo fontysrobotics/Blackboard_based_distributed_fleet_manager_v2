@@ -23,10 +23,10 @@ class RobotState(Enum):
     idle = 2
 
 class Robot(Node):
-    def __init__(self, bbAdress, backupAdress, robotId, robotType, repeatability, accuracy, payload, maxVelLinear, maxVelAngular, battery, nodeName, talker, bb):
+    def __init__(self, bbAdress, backupAdress, robotId, robotType, repeatability, accuracy, payload, maxVelLinear, maxVelAngular, battery, nodeName, talker):
         super().__init__('robot')
         self.talker = talker
-        self.bb = bb
+        self.bb = Blackboard(0,self.talker)
         self.bbAdress = bbAdress
         self.buAdress = backupAdress
         self.robotId = robotId
@@ -51,11 +51,11 @@ class Robot(Node):
 
         
         self.controller = Controller(nodeName)
-        self.taskBCSub = self.create_subscription(TaskMsg, '/taskBC', self.getTaskCost, 1)
-        self.taskAssignSub = self.create_subscription(TaskMsg, '/taskAssign', self.addTask, 1)
-        amclPose = '/'+self.nodeName+'/amcl_pose'
+        self.taskBCSub = self.create_subscription(TaskMsg, 'taskBC', self.getTaskCost, 1)
+        self.taskAssignSub = self.create_subscription(TaskMsg, 'taskAssign', self.addTask, 1)
+        amclPose = ''+self.nodeName+'/amcl_pose'
         self.amclPoseSub = self.create_subscription(PoseWithCovarianceStamped, amclPose, self.initialPose, 1)
-        self.bbBackupSub = self.create_subscription(BBbackup, '/bbBackup', self.bbBackup, 1)
+        self.bbBackupSub = self.create_subscription(BBbackup, 'bbBackup', self.bbBackup, 1)
 
         self.pingTimer = self.create_timer(5, self.checkBlackboardStatus)
         self.bbBackupTimer = self.create_timer(3, self.bbBackupActivate)
@@ -77,23 +77,24 @@ class Robot(Node):
     def bbBackup(self,data):
         if self.lock.locked() is False:
             self.lock.acquire()
-            self.bbAdress = data.bbAdress
-            self.buAdress = data.buAdress
+            self.bbAdress = data.bbadress
+            self.buAdress = data.buadress
             self.bbState = True
             self.lock.release()
 
     def addTask(self, data):
         if self.addtaskLock.locked() is False:
             self.addtaskLock.acquire()
-            if data.robotId is self.robotId:
-                self.newtask = Task(data.taskId, data.priority, data.taskType, data.pose, data.payload)
+            if data.robotid is self.robotId:
+                self.newtask = Task(data.taskid, data.priority, data.tasktype, data.pose, data.payload)
                 self.newtask.cost = data.cost
-                self.newtask.energyCost = data.energyCost
+                self.newtask.energyCost = data.energycost
                 self.newtask.taskState = TaskState.Assigned
 
                 counter = 0                                         #Stores the index of the current list item
                 for t in self.currentTaskList:
                     if t.priority < self.newtask.priority:
+                        print('werkt jonge')
                         if t.taskState is TaskState.Assigned:
                             self.currentTaskList.insert(counter, self.newtask)
                             return
@@ -103,7 +104,6 @@ class Robot(Node):
             self.addtaskLock.release()
 
     def getTaskCost(self, data):
-        print(data)
         if self.taskCostLock.locked() is False:
             self.taskCostLock.acquire()
             cost = 1000
@@ -113,7 +113,7 @@ class Robot(Node):
             preTasks = 1
 
             if data.payload > self.payload:
-                self.updateBlackboard(self.robotId, data.taskId, cost, 0)
+                self.updateBlackboard(self.robotId, data.taskid, cost, 0)
                 print('First exception')
                 self.taskCostLock.release()
                 return
@@ -136,7 +136,7 @@ class Robot(Node):
 
             if energyCost >= self.battery.getAmps()/energyTolerance:
                 cost = 1000
-                self.updateBlackboard(self.robotId, data.taskId, cost, 0)
+                self.updateBlackboard(self.robotId, data.taskid, cost, 0)
                 print('second exception')
                 self.taskCostLock.release()
                 return
@@ -149,13 +149,13 @@ class Robot(Node):
 
             if energyAtTask <= energyTolerance:
                 cost = 1000
-                self.updateBlackboard ( self.robotId, data.taskId, cost, 0)
+                self.updateBlackboard ( self.robotId, data.taskid, cost, 0)
                 print('third exception')
                 self.taskCostLock.release()
                 return
             if energyAtTask != 0:
                 cost = energyCost * preTasks / energyAtTask
-            self.updateBlackboard(self.robotId,data.taskId,cost,energyCost)
+            self.updateBlackboard(self.robotId,data.taskid,cost,energyCost)
 
             self.taskCostLock.release()
         
@@ -163,12 +163,11 @@ class Robot(Node):
     def updateBlackboard(self, robotId, taskId, taskCost, energyCost):
         if self.updateLock.locked() is False:
             self.updateLock.acquire()
-            tskCst = TaskCost()
             tskCst = TaskCost()                       
-            tskCst.robotId = robotId            
-            tskCst.taskId = taskId
-            tskCst.taskCost = taskCost
-            tskCst.energyCost = energyCost
+            tskCst.robotid = robotId            
+            tskCst.taskid = taskId
+            tskCst.taskcost = taskCost
+            tskCst.energycost = energyCost
             self.talker.pub_taskCost.publish(tskCst)   
             self.updateLock.release()
     
@@ -252,3 +251,4 @@ class Robot(Node):
                 
 
         
+

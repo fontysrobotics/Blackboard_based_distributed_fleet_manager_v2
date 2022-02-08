@@ -37,7 +37,7 @@ class Task(Node):
         self.cost = 1000                        # cost is set to max to be adjusted when calculated later
         self.energyCost = 0                     # amps used to execute task, added to simulate battery usage
         self.robotId = -1                       # task is not assigned " robot id -1 does not exist "
-        self.recivedCosts = 0                   # number of recived costs from robots 
+        self.receivedCosts = 0                   # number of recived costs from robots 
         self.stepsList = []                     # a list to hold task steps when a task is analyzed
 
     # set the task state to one of defined enums
@@ -48,7 +48,7 @@ class Task(Node):
     def analyzeTask(self):
         self.stepsList = []                                 # clear steps list
 
-        if self.taskType is TaskType.GA.value:                    # if type is GA
+        if self.taskType is TaskType.GA.value:              # if type is GA
             tskstp = TaskStep(StepType.go,self.pose[0])     # create a new task step with type go and position 0
             self.stepsList.append(tskstp)                   # append to stepsList
                 

@@ -1,12 +1,13 @@
-obstacle_range: 3.0
-raytrace_range: 3.5
+/**:
+  /move_base*:
+    ros__parameters:
+      obstacle_range: 3.0
+      raytrace_range: 3.5
+      #footprint: [[x: -0.105, y: -0.105], [x: -0.105, y: 0.105], [x: 0.041,y: 0.105], [x: 0.041,y: -0.105]]
+      inflation_radius: 0.55
+      cost_scaling_factor: 10.0
+      map_type: costmap
+      observation_sources: scan
+      scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}
 
-footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
-#robot_radius: 0.105
 
-inflation_radius: 0.55
-cost_scaling_factor: 10.0
-
-map_type: costmap
-observation_sources: scan
-scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}

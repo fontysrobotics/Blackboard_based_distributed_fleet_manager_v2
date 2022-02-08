@@ -28,7 +28,7 @@ class Ui_MainWindow(Node, object):
         self.lock = Lock()
         self.talker = Talker()
         self.subBBbackup = self.create_subscription(BBbackup, 'bbBackup', self.backupFunction, 1)
-        self.subClickedPoint = self.create_subscription(PointStamped, 'clicked_point', self.clickedPintRviz, 1)
+        self.subClickedPoint = self.create_subscription(PointStamped, 'clicked_point', self.clickedPointRviz, 1)
 
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(560, 440)
@@ -272,7 +272,7 @@ class Ui_MainWindow(Node, object):
         self.radioButton_4.clicked.connect(self.abcActivate)
         self.btnAddTask.clicked.connect(self.addTaskFunction)
 
-    def clickedPintRviz(self,data):
+    def clickedPointRviz(self,data):
         if self.currentpint == 1:
             self.ax.setValue(data.point.x)
             self.ay.setValue(data.point.y)

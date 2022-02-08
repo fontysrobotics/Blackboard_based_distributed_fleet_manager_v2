@@ -1,0 +1,20 @@
+[0.533s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/navigation': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /home/mpcmeulensteen/blackboard_ws/build/navigation/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/navigation --record /home/mpcmeulensteen/blackboard_ws/build/navigation/install.log --single-version-externally-managed
+[0.954s] running egg_info
+[0.954s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[1.000s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[1.001s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.002s] running build_py
+[1.002s] running install
+[1.003s] running install_lib
+[1.006s] running install_data
+[1.007s] running install_egg_info
+[1.009s] removing '/home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info' (and everything under it)
+[1.016s] Copying ../../build/navigation/navigation.egg-info to /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info
+[1.016s] running install_scripts
+[1.043s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/navigation/install.log'
+[1.093s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/navigation' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigation build --build-base /home/mpcmeulensteen/blackboard_ws/build/navigation/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/navigation --record /home/mpcmeulensteen/blackboard_ws/build/navigation/install.log --single-version-externally-managed

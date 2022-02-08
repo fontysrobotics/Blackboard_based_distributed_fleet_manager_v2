@@ -1,6 +1,3 @@
-import os
-import sys
-
 import launch
 import launch_ros.actions
 
@@ -51,70 +48,70 @@ def generate_launch_description():
                     'odom_model_type': 'diff'
                 },
                 {
-                    'odom_alpha5': '0.1'
+                    'odom_alpha5': 0.1
                 },
                 {
-                    'gui_publish_rate': '10.0'
+                    'gui_publish_rate': 10.0
                 },
                 {
-                    'laser_max_beams': '60'
+                    'laser_max_beams': 60
                 },
                 {
-                    'laser_max_range': '12.0'
+                    'laser_max_range': 12.0
                 },
                 {
-                    'min_particles': '500'
+                    'min_particles': 500
                 },
                 {
-                    'max_particles': '2000'
+                    'max_particles': 2000
                 },
                 {
-                    'kld_err': '0.05'
+                    'kld_err': 0.05
                 },
                 {
-                    'kld_z': '0.99'
+                    'kld_z': 0.99
                 },
                 {
-                    'odom_alpha1': '0.2'
+                    'odom_alpha1': 0.2
                 },
                 {
-                    'odom_alpha2': '0.2'
+                    'odom_alpha2': 0.2
                 },
                 {
-                    'odom_alpha3': '0.2'
+                    'odom_alpha3': 0.2
                 },
                 {
-                    'odom_alpha4': '0.2'
+                    'odom_alpha4': 0.2
                 },
                 {
-                    'laser_z_hit': '0.5'
+                    'laser_z_hit': 0.5
                 },
                 {
-                    'laser_z_short': '0.05'
+                    'laser_z_short': 0.05
                 },
                 {
-                    'laser_z_max': '0.05'
+                    'laser_z_max': 0.05
                 },
                 {
-                    'laser_z_rand': '0.5'
+                    'laser_z_rand': 0.5
                 },
                 {
-                    'laser_sigma_hit': '0.2'
+                    'laser_sigma_hit': 0.2
                 },
                 {
-                    'laser_lambda_short': '0.1'
+                    'laser_lambda_short': 0.1
                 },
                 {
                     'laser_model_type': 'likelihood_field'
                 },
                 {
-                    'laser_likelihood_max_dist': '2.0'
+                    'laser_likelihood_max_dist': 2.0
                 },
                 {
-                    'update_min_d': '0.25'
+                    'update_min_d': 0.25
                 },
                 {
-                    'update_min_a': '0.2'
+                    'update_min_a': 0.2
                 },
                 {
                     'odom_frame_id': launch.substitutions.LaunchConfiguration('odom_frame_id')
@@ -126,16 +123,16 @@ def generate_launch_description():
                     'global_frame_id': launch.substitutions.LaunchConfiguration('global_frame_id')
                 },
                 {
-                    'resample_interval': '1'
+                    'resample_interval': 1
                 },
                 {
-                    'transform_tolerance': '1.0'
+                    'transform_tolerance': 1.0
                 },
                 {
-                    'recovery_alpha_slow': '0.0'
+                    'recovery_alpha_slow': 0.0
                 },
                 {
-                    'recovery_alpha_fast': '0.0'
+                    'recovery_alpha_fast': 0.0
                 },
                 {
                     'initial_pose_x': launch.substitutions.LaunchConfiguration('initial_pose_x')
@@ -146,6 +143,12 @@ def generate_launch_description():
                 {
                     'initial_pose_a': launch.substitutions.LaunchConfiguration('initial_pose_a')
                 }
+            ],
+            remappings=[
+                ('scan', launch.substitutions.LaunchConfiguration('scan_topic')),
+                ('initialpose', '/robot4/initialpose'),
+                ('amcl_pose', '/robot4/amcl_pose'),
+                ('particlecloud', '/robot4/particlecloud')
             ]
         )
     ])

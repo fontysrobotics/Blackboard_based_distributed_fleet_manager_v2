@@ -29,34 +29,34 @@ def generate_launch_description():
     #TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
-    urdf_file_name = 'turtlebot3_burger.urdf'
-    #urdf_file_name = 'robot_description_urdf.urdf'
+    #urdf_file_name = 'turtlebot3_burger.urdf'
+    urdf_file_name = 'robot_description_urdf.urdf'
     sdf_file_name = 'model.sdf'
     
     
-    sdf_model = os.path.join(
-    	get_package_share_directory('turtlebot3_gazebo'),
-    	'models/turtlebot3_burger',
-    	sdf_file_name)
-    
     #sdf_model = os.path.join(
-   #	get_package_share_directory('robot1'),
-   #	'models',
+    #	get_package_share_directory('turtlebot3_gazebo'),
+    #	'models/turtlebot3_burger',
     #	sdf_file_name)
+    
+    sdf_model = os.path.join(
+   	get_package_share_directory('robot1'),
+   	'models',
+    	sdf_file_name)
     	
 
     print('urdf_file_name : {}'.format(urdf_file_name))
 
-       #urdf_path = os.path.join(
-    #    get_package_share_directory('robot1'),
-    #    'urdf',
-    #    urdf_file_name)
-
     urdf_path = os.path.join(
-        get_package_share_directory('turtlebot3_description'),
+        get_package_share_directory('robot1'),
         'urdf',
-        urdf_file_name
-    )
+        urdf_file_name)
+
+    #urdf_path = os.path.join(
+    #    get_package_share_directory('turtlebot3_description'),
+    #    'urdf',
+    #    urdf_file_name
+    #)
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -77,23 +77,44 @@ def generate_launch_description():
             executable='spawn_entity.py', 
             arguments=['-entity', 'robot1', 
                '-file', sdf_model,
-                  '-x', '0.0',
+                  '-x', '-3.0',
                   '-y', '0.0',
                   '-z', '0.0',
                   '-Y', '0.0'],
                   output='screen'),
         
-        #Node(
-        #    package='gazebo_ros', 
-        #    executable='spawn_entity.py', 
-        #    arguments=['-entity', 'robot2', 
-        #       '-file', sdf_model,
-        #          '-x', '1.0',
-        #          '-y', '0.0',
-        #          '-z', '0.0',
-        #          '-Y', '0.0'],
-        #          output='screen'),
+        Node(
+            package='gazebo_ros', 
+            executable='spawn_entity.py', 
+            arguments=['-entity', 'robot2', 
+               '-file', sdf_model,
+                  '-x', '-1.0',
+                  '-y', '0.0',
+                  '-z', '0.0',
+                  '-Y', '0.0'],
+                  output='screen'),
+        Node(
+            package='gazebo_ros', 
+            executable='spawn_entity.py', 
+            arguments=['-entity', 'robot3', 
+               '-file', sdf_model,
+                  '-x', '1.0',
+                  '-y', '0.0',
+                  '-z', '0.0',
+                  '-Y', '0.0'],
+                  output='screen'),
+        Node(
+            package='gazebo_ros', 
+            executable='spawn_entity.py', 
+            arguments=['-entity', 'robot4', 
+               '-file', sdf_model,
+                  '-x', '3.0',
+                  '-y', '0.0',
+                  '-z', '0.0',
+                  '-Y', '0.0'],
+                  output='screen'),
     ])
     
     
     
+

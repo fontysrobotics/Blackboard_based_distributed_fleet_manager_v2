@@ -2,7 +2,9 @@
 /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation/__pycache__/__init__.cpython-38.pyc
 /home/mpcmeulensteen/blackboard_ws/install/navigation/share/ament_index/resource_index/packages/navigation
 /home/mpcmeulensteen/blackboard_ws/install/navigation/share/navigation/package.xml
+/home/mpcmeulensteen/blackboard_ws/install/navigation/share/navigation/navigation.launch.py
 /home/mpcmeulensteen/blackboard_ws/install/navigation/share/navigation/environment.launch.py
+/home/mpcmeulensteen/blackboard_ws/install/navigation/share/navigation/simulation.launch.py
 /home/mpcmeulensteen/blackboard_ws/install/navigation/share/navigation/robot_state_publisher.launch.py
 /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info/zip-safe
 /home/mpcmeulensteen/blackboard_ws/install/navigation/lib/python3.8/site-packages/navigation-0.0.0-py3.8.egg-info/dependency_links.txt

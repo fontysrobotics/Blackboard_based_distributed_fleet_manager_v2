@@ -1,0 +1,20 @@
+[0.252s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed
+[0.560s] running egg_info
+[0.561s] writing ../../build/blackboard/blackboard.egg-info/PKG-INFO
+[0.562s] writing dependency_links to ../../build/blackboard/blackboard.egg-info/dependency_links.txt
+[0.563s] writing entry points to ../../build/blackboard/blackboard.egg-info/entry_points.txt
+[0.564s] writing requirements to ../../build/blackboard/blackboard.egg-info/requires.txt
+[0.565s] writing top-level names to ../../build/blackboard/blackboard.egg-info/top_level.txt
+[0.604s] reading manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.606s] writing manifest file '../../build/blackboard/blackboard.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.607s] running build_py
+[0.609s] running install
+[0.610s] running install_lib
+[0.613s] running install_data
+[0.614s] running install_egg_info
+[0.616s] removing '/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info' (and everything under it)
+[0.616s] Copying ../../build/blackboard/blackboard.egg-info to /home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard-0.0.0-py3.8.egg-info
+[0.617s] running install_scripts
+[0.636s] writing list of installed files to '/home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log'
+[0.678s] Invoked command in '/home/mpcmeulensteen/blackboard_ws/src/blackboard' returned '0': PYTHONPATH=/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/blackboard build --build-base /home/mpcmeulensteen/blackboard_ws/build/blackboard/build install --prefix /home/mpcmeulensteen/blackboard_ws/install/blackboard --record /home/mpcmeulensteen/blackboard_ws/build/blackboard/install.log --single-version-externally-managed

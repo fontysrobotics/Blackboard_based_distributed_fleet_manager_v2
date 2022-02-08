@@ -1,19 +1,23 @@
 import numpy
 import random
 
+
 from numpy.lib.function_base import delete
 
 import rclpy
 from tf_transformations import quaternion_from_matrix
-from rclpy.duration import Duration
+from builtin_interfaces.msg import Duration
+from builtin_interfaces.msg import Time
+import time
 from rclpy.node import Node
 from rclpy.node import Publisher
-from std_msgs.msg import Header, ColorRGBA
-from geometry_msgs.msg import Transform, Pose, Point, Point32, Vector3, Quaternion, Polygon
+from std_msgs.msg import ColorRGBA
+from geometry_msgs.msg import Pose, Point, Vector3
 from visualization_msgs.msg import Marker
 
 class RvizMarkers(Node):
     def __init__(self, base_frame, marker_topic, wait_time=None):
+        super().__init__("RvizMarkers")
         self.base_frame = base_frame
         self.marker_topic = marker_topic
 
@@ -22,7 +26,7 @@ class RvizMarkers(Node):
         self.loadMarkerPublisher(wait_time)
 
     def setDefaultMarkerParams(self):
-        self.marker_lifetime = Duration(0.0) # 0 = Marker never expires
+        self.marker_lifetime = Duration()
         self.muted = False
         self.alpha = 1.0
 
@@ -37,7 +41,7 @@ class RvizMarkers(Node):
         # Reset Marker
         self.reset_marker = Marker()
         self.reset_marker.header.frame_id = self.base_frame
-        self.reset_marker.header.stamp = self.get_clock()
+        self.reset_marker.header.stamp = Time()
         self.reset_marker.action = 3
 
         # Arrow Marker
@@ -87,9 +91,9 @@ class RvizMarkers(Node):
         self.sphere_marker.type = Marker().SPHERE
         self.sphere_marker.action = Marker().ADD
         self.sphere_marker.lifetime = self.marker_lifetime
-        self.sphere_marker.pose.position.x = 0
-        self.sphere_marker.pose.position.y = 0
-        self.sphere_marker.pose.position.z = 0
+        self.sphere_marker.pose.position.x = 0.0
+        self.sphere_marker.pose.position.y = 0.0
+        self.sphere_marker.pose.position.z = 0.0
         self.sphere_marker.pose.orientation.x = 0.0
         self.sphere_marker.pose.orientation.y = 0.0
         self.sphere_marker.pose.orientation.z = 0.0
@@ -104,9 +108,9 @@ class RvizMarkers(Node):
         self.sphere_marker2.type = Marker().SPHERE_LIST
         self.sphere_marker2.action = Marker().ADD
         self.sphere_marker2.lifetime = self.marker_lifetime
-        self.sphere_marker2.pose.position.x = 0
-        self.sphere_marker2.pose.position.y = 0
-        self.sphere_marker2.pose.position.z = 0
+        self.sphere_marker2.pose.position.x = 0.0
+        self.sphere_marker2.pose.position.y = 0.0
+        self.sphere_marker2.pose.position.z = 0.0
         self.sphere_marker2.pose.orientation.x = 0.0
         self.sphere_marker2.pose.orientation.y = 0.0
         self.sphere_marker2.pose.orientation.z = 0.0
@@ -181,14 +185,14 @@ class RvizMarkers(Node):
         if hasattr(self, 'pub_rviz_marker'):
             return
 
-        self.pub_rviz_marker = self.create_publisher(Marker, self.marker_topic, 1)
+        self.pub_rviz_marker = Node.create_publisher(self, Marker, self.marker_topic, 1)
 
         if wait_time != None:
             self.waitForSubscriber(self.pub_rviz_marker, wait_time)
 
     
     def waitForSubscriber(self, publisher, wait_time=1.0):
-        start_time = self.get_clock().now()
+        start_time = time.time()
         max_time = start_time + Duration(wait_time)
 
         num_existing_subscribers = Publisher(publisher).get_subscription_count()
@@ -196,7 +200,7 @@ class RvizMarkers(Node):
             rate = self.create_rate(100)
             rate.sleep()
 
-            if (self.get_clock().now() > max_time):
+            if (time.time() > max_time):
                 self.get_logger().info('No subscribers connected to the %s topic after %f seconds', self.marker_topic, wait_time)
                 return False
             
@@ -358,7 +362,11 @@ class RvizMarkers(Node):
         if type(scale) == Vector3:
             arrow_scale = scale
         elif type(scale) == float:
-            arrow_scale = Vector3(scale, 0.1*scale, 0.1*scale)
+            vec = Vector3()
+            vec.x = scale
+            vec.y = (0.1*scale)
+            vec.z = (0.1*scale)
+            arrow_scale = vec
         else:
             self.get_logger().info("Scale is unsupported type %s in publishArrow()", type(scale).__name__)
             return False
@@ -368,11 +376,13 @@ class RvizMarkers(Node):
         arrow_marker = self.arrow_marker
 
         if lifetime == None:
-            arrow_marker.lifetime = Duration(0.0)
+            arrow_marker.lifetime = Duration()
         else:
-            arrow_marker.lifetime = Duration(lifetime)
+            secs = Duration()
+            secs.sec = lifetime
+            arrow_marker.lifetime = secs
         
-        arrow_marker.header.stamp = self.get_clock().now()
+        arrow_marker.header.stamp = Time()
 
         arrow_marker.pose = arrow_pose
 

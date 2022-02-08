@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/mpcmeulensteen/blackboard_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/blackboard_ws/install/tf_transformations:/home/mpcmeulensteen/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/blackboard_ws/build/turtlebot3_msgs -- -j2 -l2
+[0.148s] [  1%] Built target turtlebot3_msgs__cpp
+[0.160s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.192s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.223s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.237s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.266s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.284s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.284s] make[1]: *** [CMakeFiles/Makefile2:383: CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.285s] make[2]: *** [CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:316: CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/depend] Interrupt
+[0.285s] make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[0.285s] make: *** [Makefile:141: all] Interrupt

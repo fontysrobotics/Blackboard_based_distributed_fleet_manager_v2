@@ -1,15 +1,13 @@
 #!/usr/bin python3
 import rclpy
-from rclpy import publisher
-from rclpy.node import Node
-from ros2_blackboard import Publisher
-from ros2_blackboard import Blackboard
+from ros2_blackboard.RosCommunication import NodePublisher
+from ros2_blackboard.Blackboard import Blackboard
 
-def main(args=Node):
+def main(args=None):
     rclpy.init(args=args)
-    publisher = Publisher('blackboard')
+    publisher = NodePublisher('blackboard_pub')
     bb = Blackboard(1, publisher)
-    rclpy.spin()
+    rclpy.spin(bb)
 
 if __name__ == '__main__':
     main()

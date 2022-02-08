@@ -14,7 +14,6 @@ from launch.substitutions import LaunchConfiguration
 
 
 def generate_launch_description():
-
 	use_sim_time = LaunchConfiguration('use_sim_time', default='true')
 	world_file_name = 'environment.world'
 	world = os.path.join(get_package_share_directory('navigation'),
@@ -30,18 +29,15 @@ def generate_launch_description():
 		    ),
 		    launch_arguments={'world': world}.items(),
 		),
-
 		IncludeLaunchDescription(
 		    PythonLaunchDescriptionSource(
 			os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
 		    ),
 		),
-
 		IncludeLaunchDescription(
 		    PythonLaunchDescriptionSource([launch_file_dir, '/robot_state_publisher.launch.py']),
 		    launch_arguments={'use_sim_time': use_sim_time}.items(),
 		),
-		
 		IncludeLaunchDescription(
 		    PythonLaunchDescriptionSource([robot_launch_file_dir, '/robot.launch.py']),
 		    launch_arguments={'use_sim_time': use_sim_time}.items(),

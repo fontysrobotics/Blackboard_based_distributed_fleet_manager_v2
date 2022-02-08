@@ -1,6 +1,3 @@
-import os
-import sys
-
 import launch
 import launch_ros.actions
 
@@ -146,6 +143,12 @@ def generate_launch_description():
                 {
                     'initial_pose_a': launch.substitutions.LaunchConfiguration('initial_pose_a')
                 }
+            ],
+            remappings=[
+                ('scan', launch.substitutions.LaunchConfiguration('scan_topic')),
+                ('initialpose', '/robot1/initialpose'),
+                ('amcl_pose', '/robot1/amcl_pose'),
+                ('particlecloud', '/robot1/particlecloud')
             ]
         )
     ])
