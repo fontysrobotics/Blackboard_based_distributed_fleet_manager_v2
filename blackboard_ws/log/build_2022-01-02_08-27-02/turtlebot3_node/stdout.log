@@ -1,7 +1,0 @@
-[ 85%] Built target turtlebot3_node_lib
-[100%] Built target turtlebot3_ros
--- Install configuration: ""
--- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_node/share/turtlebot3_node/param
--- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
--- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
--- Up-to-date: /home/mpcmeulensteen/blackboard_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml

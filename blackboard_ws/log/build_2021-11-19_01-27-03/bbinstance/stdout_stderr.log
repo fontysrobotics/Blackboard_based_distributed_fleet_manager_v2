@@ -1,6 +1,0 @@
-make[2]: *** No rule to make target 'CMakeFiles/gui.dir/build'.  Stop.
-make[1]: *** [CMakeFiles/Makefile2:117: CMakeFiles/gui.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make[2]: *** No rule to make target 'CMakeFiles/robotInstance3.dir/build'.  Stop.
-make[1]: *** [CMakeFiles/Makefile2:144: CMakeFiles/robotInstance3.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

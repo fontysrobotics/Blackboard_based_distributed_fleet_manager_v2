@@ -1,8 +1,0 @@
-CMake Error: The current CMakeCache.txt directory /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk/CMakeCache.txt is different than the directory /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
--- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
--- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Override CMake install command with custom implementation using symlinks instead of copying resources
--- Configuring done
--- Generating done
--- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk
-[100%] Built target dynamixel_sdk

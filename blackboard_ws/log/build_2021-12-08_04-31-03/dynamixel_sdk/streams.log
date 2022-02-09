@@ -1,9 +1,0 @@
-[0.022s] Invoking command in '/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk -- -j2 -l2
-[0.033s] CMake Error: The current CMakeCache.txt directory /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk/CMakeCache.txt is different than the directory /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
-[0.063s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
-[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[0.251s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
-[0.311s] -- Configuring done
-[0.317s] -- Generating done
-[0.319s] -- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk
-[0.348s] [100%] Built target dynamixel_sdk

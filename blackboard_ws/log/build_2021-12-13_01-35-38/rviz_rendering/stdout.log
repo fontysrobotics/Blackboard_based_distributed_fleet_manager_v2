@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target rviz_rendering[0m
-[  5%] Built target gmock
-[  8%] Built target gmock_main
-[ 10%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/ogre_logging.cpp.o[0m
-[ 12%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader.cpp.o[0m

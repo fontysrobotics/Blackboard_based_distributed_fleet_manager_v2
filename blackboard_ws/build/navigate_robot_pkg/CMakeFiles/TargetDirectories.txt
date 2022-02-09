@@ -1,9 +1,0 @@
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/install/strip.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/install.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/list_install_components.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/rebuild_cache.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/edit_cache.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/test.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/install/local.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/navigate_robot_pkg_uninstall.dir
-/home/mpcmeulensteen/blackboard_ws/build/navigate_robot_pkg/CMakeFiles/uninstall.dir

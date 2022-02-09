@@ -1,5 +1,0 @@
-  File "/home/mpcmeulensteen/blackboard_ws/install/bbinstance/lib/python3.8/site-packages/bbinstance/markers.py", line 55
-    print "Shutting down node"
-          ^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Shutting down node")?
-

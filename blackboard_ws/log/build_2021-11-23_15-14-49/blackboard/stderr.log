@@ -1,5 +1,0 @@
-  File "/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Robot.py", line 193
-    if energyAtTask =! 0:
-                    ^
-SyntaxError: invalid syntax
-

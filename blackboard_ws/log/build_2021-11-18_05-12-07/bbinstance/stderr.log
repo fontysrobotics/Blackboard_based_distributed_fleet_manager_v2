@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:18 (set_target_properties):
-  set_target_properties Can not find target to add properties to: hello
-
-
-make: *** [Makefile:320: cmake_check_build_system] Error 1

@@ -1,9 +1,0 @@
-[0.030s] Invoking command in '/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/install/turtlebot3_teleop:/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/install/turtlebot3_example:/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/install/ros2_blackboard:/home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/install/ros2_bbinstance:/opt/ros/foxy /usr/bin/cmake --build /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk -- -j2 -l2
-[0.040s] CMake Error: The current CMakeCache.txt directory /home/mpcmeulensteen/git/Blackboard_based_distributed_fleet_manager_v2/blackboard_ws/build/dynamixel_sdk/CMakeCache.txt is different than the directory /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
-[0.059s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
-[0.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[0.258s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
-[0.320s] -- Configuring done
-[0.325s] -- Generating done
-[0.326s] -- Build files have been written to: /home/mpcmeulensteen/blackboard_ws/build/dynamixel_sdk
-[0.355s] [100%] Built target dynamixel_sdk

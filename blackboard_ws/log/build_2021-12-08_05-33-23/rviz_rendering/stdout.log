@@ -1,6 +1,0 @@
-[  5%] Built target gmock
-[  7%] [32mBuilding CXX object CMakeFiles/rviz_rendering.dir/src/rviz_rendering/mesh_loader.cpp.o[0m
-[35m[1mScanning dependencies of target gmock_main[0m
-[  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
-[ 10%] [32m[1mLinking CXX static library libgmock_main.a[0m
-[ 10%] Built target gmock_main

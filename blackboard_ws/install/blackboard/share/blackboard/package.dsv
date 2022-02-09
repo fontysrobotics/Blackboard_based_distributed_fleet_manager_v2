@@ -1,9 +1,0 @@
-source;share/blackboard/hook/cmake_prefix_path.ps1
-source;share/blackboard/hook/cmake_prefix_path.dsv
-source;share/blackboard/hook/cmake_prefix_path.sh
-source;share/blackboard/hook/pythonpath.ps1
-source;share/blackboard/hook/pythonpath.dsv
-source;share/blackboard/hook/pythonpath.sh
-source;share/blackboard/hook/ament_prefix_path.ps1
-source;share/blackboard/hook/ament_prefix_path.dsv
-source;share/blackboard/hook/ament_prefix_path.sh

@@ -1,4 +1,0 @@
-/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Robot.py:193: SyntaxWarning: "is not" with a literal. Did you mean "!="?
-  if energyAtTask is not 0:
-/home/mpcmeulensteen/blackboard_ws/install/blackboard/lib/python3.8/site-packages/blackboard/Blackboard.py:37: SyntaxWarning: "is" with a literal. Did you mean "=="?
-  if state is 1:                               # Incase the blackboard instance is active declare variables

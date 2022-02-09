@@ -1,4 +1,0 @@
-[  1%] [32mBuilding C object CMakeFiles/message_pkg__rosidl_generator_c.dir/rosidl_generator_c/message_pkg/msg/detail/b_bsynch__functions.c.o[0m
-[  3%] Built target message_pkg__cpp
-[  4%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/task_cost__type_support.cpp.o[0m
-[  6%] [32mBuilding CXX object CMakeFiles/message_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message_pkg/msg/b_bsynch__type_support.cpp.o[0m
